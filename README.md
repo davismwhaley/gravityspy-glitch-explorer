@@ -13,7 +13,7 @@ This repository documents an end-to-end research pipeline for discovering and au
 ## **Featured Case Study: Cluster 16 Drift-Line Manifold**
 **New:** During the Human–AI audit phase, I discovered a continuous frequency-drifting glitch family (Cluster 16) that humans had split across eight different labels (“Whistle,” “Low_Frequency_Lines,” “Air_Compressor,” etc.).
 
-![Cluster 16](figures/preview/umap_cluster16_segments2.png)
+![Cluster 16](figures/umap_cluster16_segments2.png)
 
 Using a manifold-based segmentation approach, I found that:
 - Cluster 16 contains 302 samples
