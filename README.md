@@ -51,41 +51,27 @@ By overlaying human labels on machine-generated clusters, this tool highlights w
 
 ---
 
-## 🗺 Roadmap
+## 🗺 Strategic Roadmap
 
-### **✔ Phase A — Embedding & Visualization (Completed)**
-- CNN embeddings  
-- UMAP projection  
-- HDBSCAN clustering  
-- Interactive explorer  
-- Cluster atlas  
+### **Phase A: Morphology Discovery (Completed)** 
+*   [x] 34k+ Image Embedding via Transfer Learning
+*   [x] Interactive UMAP Explorer with Image Previews
+*   [x] Cluster Purity & Metadata Analysis
 
----
+### **Phase B: Detector Coupling (In Progress)** 
+*   [ ] Correlation of glitch clusters with **LIGO Auxiliary Channels** (Seismic, Magnetic, Voltage) using `GWpy`.
+*   [ ] Identifying predictive precursors in environmental sensors to forecast glitches.
 
-### **➡ Phase B — Detector Coupling (Next)**
-Use **GWpy** to load auxiliary channels and correlate them with glitch clusters.
-
-Example goals:
-
-- Does ground motion predict scattered-light glitches?  
-- Which auxiliary channels “light up” before specific glitch families?  
-- Can the model identify precursors seconds before a glitch?
+### **Phase C: Impact & Explainability**
+*   [ ] Quantifying "Glitch Cost" by measuring the dip in binary neutron star (BNS) inspiral range during high-activity periods.
+*   [ ] Using **SHAP Values** to determine which specific sensors are the primary drivers of glitch production.
 
 ---
 
-### **➡ Phase C — Impact & Explainability**
-- Train interpretable models (Random Forest, XGBoost)  
-- Use **SHAP values** to quantify which sensors drive glitch production  
-- Rank glitch families by their impact on detector sensitivity  
-- Build a “Glitch Cost Ranking” dashboard  
+## 🛠 Installation & Local Development
 
----
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/davismwhaley/gravityspy-glitch-explorer.git
 
-## 🛠 Installation (Local Development)
-
-Requires **Python 3.10+**
-
-```bash
 pip install -r notebooks/requirements.txt
-
-
