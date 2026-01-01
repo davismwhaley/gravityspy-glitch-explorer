@@ -1,7 +1,7 @@
 # Gravity Spy Glitch Explorer  
 *A visual and interactive exploration of LIGO glitch morphology using CNN embeddings, UMAP, and HDBSCAN.*
 
-![UMAP Preview](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/preview/umap_preview.png)
+![UMAP Preview][https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/preview/umap_preview.png]
 
 ---
 
