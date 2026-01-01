@@ -80,7 +80,8 @@ This explorer helps investigate:
 - Where human labels and machine-learned clusters disagree
 - Which regions of the embedding deserve deeper investigation (Phase B)
 
-  Different clusters appear up/down/left/right because they have different spectrogram shapes. They may share internal structure, or vary continuously along one or two morphological dimensions. This style of exploration mirrors **detector-characterization research** done inside the LIGO Scientific Collaboration.
+
+Different clusters appear up/down/left/right because they have different spectrogram shapes. They may share internal structure, or vary continuously along one or two morphological dimensions. This style of exploration mirrors **detector-characterization research** done inside the LIGO Scientific Collaboration.
 
 ---
 
