@@ -24,6 +24,14 @@ This makes Cluster 16 a perfect case study for demonstrating:
 ---
 ![Cluster 16](umap_cluster16_segments2.png)
 
+The figure above shows the 2-D UMAP projection of Cluster 16, colored by the original human labels. The points lie almost perfectly along a 1-D curvature, yet the color distribution reveals major inconsistencies:
+
+- Light blue (Whistle) on the lower-left
+- Pink/red (mixed labels) in the center
+- Green/red (Low Frequency Lines / Power Line) in the top-right
+
+This plot demonstrates the core finding of the audit: Human label boundaries do not match the underlying physical morphology.
+
 ## 🧬 Morphological Evolution: A 3-Segment Drift Line
 
 Visual inspection of the cluster shows a **smooth drift** along the manifold:
