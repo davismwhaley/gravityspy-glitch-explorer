@@ -75,3 +75,8 @@ By overlaying human labels on machine-generated clusters, this tool highlights w
    git clone https://github.com/davismwhaley/gravityspy-glitch-explorer.git
 
 pip install -r notebooks/requirements.txt
+
+---
+## **Contact & Portfolio**
+Davis Whaley
+davismwhaley@gmail.com
