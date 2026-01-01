@@ -23,11 +23,6 @@ This repository currently contains **Phase A** of the planned research pipeline.
 
 ## 📦 Project Structure
 
-# Gravity Spy Glitch Explorer  
-*A visual and interactive exploration of LIGO glitch morphology using CNN embeddings, UMAP, and HDBSCAN.*
-
-![UMAP Preview](figures/preview/umap_preview.png)
-
 ---
 
 ## 🔍 Live Interactive Dashboard
