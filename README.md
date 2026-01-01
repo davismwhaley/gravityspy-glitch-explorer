@@ -1,5 +1,5 @@
 # 🚀 Gravity Spy Glitch Explorer  
-*A deep-learning exploration of LIGO glitch morphology using CNN embeddings, UMAP, and HDBSCAN.*
+*LIGO Gravity Spy Glitch Explorer: Unsupervised Morphology Mapping*
 
 ![UMAP Preview](figures/preview/umap_preview.png)
 
