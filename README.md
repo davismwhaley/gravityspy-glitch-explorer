@@ -42,6 +42,15 @@ By overlaying human labels on machine-generated clusters, this tool highlights w
 
 ---
 
+## 🛠 Technical Stack
+*   **Deep Learning:** PyTorch (ResNet-18 feature extraction)
+*   **Dimensionality Reduction:** UMAP (Cosine metric)
+*   **Clustering:** HDBSCAN (Density-based)
+*   **Data Engineering:** Pandas, NumPy
+*   **Visualization:** Plotly (Interactive HTML), Matplotlib/Seaborn
+
+---
+
 ## 🗺 Roadmap
 
 ### **✔ Phase A — Embedding & Visualization (Completed)**
