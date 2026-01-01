@@ -21,8 +21,6 @@ This repository currently contains **Phase A** of the planned research pipeline.
 
 ---
 
-## 📦 Project Structure
-
 ## 🔍 Live Interactive Dashboard
 
 Click below to explore the 2D embedding:
