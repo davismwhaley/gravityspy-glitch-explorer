@@ -96,10 +96,7 @@ This project uses deep learning + dimensional reduction to examine:
 - Produce “Glitch Cost Ranking” dashboard
 
 ---
-MIT License — feel free to fork, modify, and build upon this project.
----
-
----
+**MIT License — feel free to fork, modify, and build upon this project.**
 
 **Acknowledgments:**
 
