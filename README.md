@@ -77,7 +77,7 @@ By overlaying human labels on machine-generated clusters, this tool highlights w
 pip install -r notebooks/requirements.txt
 
 ---
-## **Contact & Portfolio**
+## **Contact**
 Davis Whaley
 
 davismwhaley@gmail.com
