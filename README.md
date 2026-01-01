@@ -79,4 +79,7 @@ pip install -r notebooks/requirements.txt
 ---
 ## **Contact & Portfolio**
 Davis Whaley
+
 davismwhaley@gmail.com
+
+https://github.com/davismwhaley/gravityspy-glitch-explorer/
