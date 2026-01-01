@@ -16,10 +16,6 @@ LIGO detectors are so sensitive they can detect the collision of black holes bil
 
 ---
 
-## 🔍 Live Interactive Dashboard
-
-👉 **[Launch the Interactive UMAP Explorer](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)**
-
 ## 🔍 [View the Live Interactive Dashboard](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
 *Note: This interactive UMAP allows you to hover over data points to see the specific spectrogram morphology associated with each cluster in real-time.* 
 
