@@ -29,19 +29,16 @@ LIGO detectors are so sensitive they can detect the collision of black holes bil
 
 ---
 
-## 🌌 Scientific Context
+## 🧠 Data Science Methodology
 
-LIGO’s detectors are sensitive enough to detect spacetime distortions smaller than a proton — but this sensitivity also makes them vulnerable to instrumental or environmental “glitches.”
+### 1. The Embedding Pipeline
+Instead of relying on human-defined features (like duration or frequency), I used a **Convolutional Neural Network (CNN)** to "learn" the morphology. By stripping the final classification layer of a ResNet-18 model and using the 512-D identity output, I repurposed the model to act as a high-level visual descriptor for astrophysical noise.
 
-This explorer helps investigate:
+### 2. Discovering the "Unknown Unknowns"
+Traditional classification only finds what we tell it to look for. By using **HDBSCAN (Density-Based Clustering)**, this project identifies "Noise" (Cluster -1) and outliers. This is critical for LIGO researchers to identify **new instrumental faults** before they are officially named by the collaboration.
 
-- How glitch types organize morphologically, categorizing them by blip glitches, whistles, scattered light, and coincidence class.
-- Whether subclasses or subclusters exist within known types
-- Where human labels and machine-learned clusters disagree
-- Which regions of the embedding deserve deeper investigation (Phase B)
-
-
-Different clusters appear up/down/left/right because they have different spectrogram shapes. They may share internal structure, or vary continuously along one or two morphological dimensions. This style of exploration mirrors **detector-characterization research** done inside the LIGO Scientific Collaboration.
+### 3. Human-Machine Disagreement
+By overlaying human labels on machine-generated clusters, this tool highlights where citizen science labels (Gravity Spy) diverge from mathematical morphology. This serves as a powerful **Data Quality Assurance (QA)** tool for the LIGO/Virgo/KAGRA collaboration.
 
 ---
 
