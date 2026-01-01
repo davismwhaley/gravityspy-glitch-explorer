@@ -1,1 +1,34 @@
-
+{
+  "cluster_id": 16,
+  "total_samples": 302,
+  "core_samples": 151,
+  "inconsistent_labels": 151,
+  "inconsistent_rate": 0.5,
+  "segment_counts": {
+    "lower": {
+      "total": 100,
+      "core": 65,
+      "inconsistent": 35,
+      "inconsistent_rate": 0.35
+    },
+    "middle": {
+      "total": 100,
+      "core": 32,
+      "inconsistent": 68,
+      "inconsistent_rate": 0.68
+    },
+    "upper": {
+      "total": 102,
+      "core": 54,
+      "inconsistent": 48,
+      "inconsistent_rate": 0.47058823529411764
+    }
+  },
+  "dominant_labels": [
+    "Whistle",
+    "Low_Frequency_Lines",
+    "Low_Frequency_Burst",
+    "Air_Compressor",
+    "Light_Modulation"
+  ]
+}

@@ -1,1 +1,152 @@
-
+sample_id,true_label,segment,proposed_label,justification
+H1_CHUZJp0lLA_spectrogram_4.0.png,1080Lines,lower,Whistle,High-frequency morphology (Whistle region)
+H1_6dm2tquJFb_spectrogram_4.0.png,Air_Compressor,lower,Whistle,High-frequency morphology (Whistle region)
+H1_RiTNwU1wPp_spectrogram_4.0.png,Air_Compressor,lower,Whistle,High-frequency morphology (Whistle region)
+H1_z69vZWN8U5_spectrogram_4.0.png,Air_Compressor,lower,Whistle,High-frequency morphology (Whistle region)
+H1_aHmlPNowBS_spectrogram_4.0.png,Air_Compressor,lower,Whistle,High-frequency morphology (Whistle region)
+H1_DJh3ZCLfVC_spectrogram_4.0.png,Air_Compressor,lower,Whistle,High-frequency morphology (Whistle region)
+H1_pruBtY7y0L_spectrogram_4.0.png,Air_Compressor,lower,Whistle,High-frequency morphology (Whistle region)
+H1_3EBqetoLvI_spectrogram_4.0.png,Air_Compressor,lower,Whistle,High-frequency morphology (Whistle region)
+H1_NOsYE0219V_spectrogram_4.0.png,Helix,lower,Whistle,High-frequency morphology (Whistle region)
+L1_UzabLhJLEJ_spectrogram_4.0.png,Low_Frequency_Lines,lower,Whistle,High-frequency morphology (Whistle region)
+L1_AFI1JcW5pP_spectrogram_4.0.png,Low_Frequency_Lines,lower,Whistle,High-frequency morphology (Whistle region)
+L1_ZePr7qSH3i_spectrogram_4.0.png,Low_Frequency_Lines,lower,Whistle,High-frequency morphology (Whistle region)
+L1_8VpTrLqpzG_spectrogram_4.0.png,Low_Frequency_Lines,lower,Whistle,High-frequency morphology (Whistle region)
+L1_uDqC1GnX72_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+L1_YU3iEjH75G_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+H1_2evM7Qg6Kh_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+H1_XXJ9hYP9FW_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+H1_y69hdVQkOT_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+H1_y69hdVQkOT_spectrogram_2.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+H1_A32CZogLn3_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+L1_73VpsUzJMz_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+H1_oAAav9WdXb_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+H1_jc8YV6frym_spectrogram_4.0.png,No_Glitch,lower,Whistle,High-frequency morphology (Whistle region)
+H1_WpQty2Ttoy_spectrogram_4.0.png,Power_Line,lower,Whistle,High-frequency morphology (Whistle region)
+L1_8ZzDDCBPDO_spectrogram_4.0.png,Power_Line,lower,Whistle,High-frequency morphology (Whistle region)
+H1_N41WtjJZOh_spectrogram_4.0.png,Power_Line,lower,Whistle,High-frequency morphology (Whistle region)
+H1_plz0RMPnRe_spectrogram_4.0.png,Power_Line,lower,Whistle,High-frequency morphology (Whistle region)
+H1_yAnjC9JW7s_spectrogram_4.0.png,Power_Line,lower,Whistle,High-frequency morphology (Whistle region)
+H1_OXyU8J10yV_spectrogram_4.0.png,Power_Line,lower,Whistle,High-frequency morphology (Whistle region)
+H1_fNJyLaG9EC_spectrogram_4.0.png,Power_Line,lower,Whistle,High-frequency morphology (Whistle region)
+L1_ho1AslHOCF_spectrogram_4.0.png,Scattered_Light,lower,Whistle,High-frequency morphology (Whistle region)
+H1_znlzSjsvAF_spectrogram_4.0.png,Scratchy,lower,Whistle,High-frequency morphology (Whistle region)
+L1_eS7vs9b5S9_spectrogram_4.0.png,Violin_Mode,lower,Whistle,High-frequency morphology (Whistle region)
+H1_lbgh0T62Zv_spectrogram_4.0.png,Wandering_Line,lower,Whistle,High-frequency morphology (Whistle region)
+H1_mgh0AVpXkV_spectrogram_4.0.png,Wandering_Line,lower,Whistle,High-frequency morphology (Whistle region)
+H1_Lkno2KhVEd_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_63EmygSWna_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_0QjLuKeJvV_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_kq1xVL3IZ9_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_mqU0FCB5ij_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_VHPJmhHdsD_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_XjE2Dia4w0_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_DrroAVxlAi_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_wzmHvebOEr_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_Xsux1UyalH_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_j8hLyZYbC5_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_kHegxyaAxN_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_VBbVqtYiA3_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_EMblTjaho5_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_ifSlGJa57A_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_w7WrkZeuFd_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_icJyaVhDB1_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_2W8vymJvKF_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_Ey2dOU6ACM_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_hB93a6UPPp_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_iKKjvqnxM3_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_kzfdbRjvEF_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_Ghlhf10NuA_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_QPV1DWmwv4_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_aY37iWsQRD_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_9NiZ9QnEwj_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_0uDLKL74nc_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_sVIBx8skwk_spectrogram_4.0.png,Air_Compressor,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_0yn88IyjOH_spectrogram_4.0.png,Low_Frequency_Burst,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_13kR4mUyD1_spectrogram_4.0.png,Low_Frequency_Burst,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_qCMZukX8ZU_spectrogram_4.0.png,Low_Frequency_Burst,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_nMFso7o4O0_spectrogram_4.0.png,Low_Frequency_Burst,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_dth7xSTTG4_spectrogram_4.0.png,Low_Frequency_Burst,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_xoV09XdgtP_spectrogram_4.0.png,Low_Frequency_Burst,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_xv4UvV3wy0_spectrogram_4.0.png,No_Glitch,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_JC9jF7vJr5_spectrogram_4.0.png,No_Glitch,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_YDvikDibLB_spectrogram_4.0.png,No_Glitch,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_J7Qh9JPUrO_spectrogram_4.0.png,No_Glitch,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_y3MMr7MUpF_spectrogram_4.0.png,No_Glitch,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_hNQaXm57h0_spectrogram_4.0.png,No_Glitch,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_dPEJyYWtKl_spectrogram_4.0.png,No_Glitch,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_VWhlPVs1Aq_spectrogram_4.0.png,None_of_the_Above,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_srkW9udTrp_spectrogram_4.0.png,None_of_the_Above,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_vpq37fF1mS_spectrogram_4.0.png,None_of_the_Above,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_b8LRo0HTso_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_adnKg0TLnG_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_x3iTLg3IJe_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_RmcVBAUogs_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_pQyzGkEeSg_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_zOHgX7pkpy_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_nSdeWmdGBm_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_u4l3X8ZaQG_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_e2Z4utjZ8m_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_ZRBcq5DuGW_spectrogram_4.0.png,Power_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_SHAon5qJ59_spectrogram_4.0.png,Scattered_Light,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_kdvGTOw0Gg_spectrogram_4.0.png,Wandering_Line,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_sfou6nqdty_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_CKIImxzwyb_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_cTwrdPEHoY_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_8iCbtwCYBW_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_DC1FikmU7F_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_tEAKgr5xzf_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_ZtOSG8FTlU_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_4QWgo1N8FC_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_AC9Gyk4rdV_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_g4u7VNBGQu_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_dFAzsyvQ4x_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+L1_ZMVZFrbFae_spectrogram_4.0.png,Whistle,middle,Low_Frequency_Lines,Mid-frequency drift-line morphology
+H1_CfEOoWyyWN_spectrogram_4.0.png,Air_Compressor,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_3tdb2QUKa3_spectrogram_4.0.png,Air_Compressor,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_w3sapJCGxZ_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_4HSuI2T7ED_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_gDqE17zrZH_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_VpUU5f1Fzz_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_2GO7DCuPbo_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_tJrbCTCxQL_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_eAegDoelKU_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_NqDYZ9aRKv_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_N35xfk1reH_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_0tsGCRulxU_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_toYgdOI3cI_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_pvZr4dpeCk_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_1x6ACDZslu_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_ZuF7XFWBGt_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_ht8BsvozRj_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_FVoV7waeYU_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_WsDroRir7Z_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_KYrFMhALvl_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_OHFw2ntK2b_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_kcdsnQvMtQ_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_SxbB0UpTA7_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_ZlkjVvKxCX_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_UoXD2DQ5LQ_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_JN4LS9p2SU_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_S3netHw3FW_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_SLfGgEiHsM_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_U0OLYRXXy1_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_6FxdDX27qw_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_OybPg9HdIN_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_Caoag39c0W_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_OhJRV1MPTF_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_hW8iQuQ6Ui_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_2or5mqh1JE_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_85hZA8yYpN_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_n5wJIJR0Ax_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_V83h5sjJEV_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_SpJIqzUnLC_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_iORJGSZt4q_spectrogram_4.0.png,Low_Frequency_Lines,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_mC8OeKHRfA_spectrogram_4.0.png,None_of_the_Above,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_8MiALG6Akm_spectrogram_4.0.png,None_of_the_Above,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_cAYN22DZAn_spectrogram_4.0.png,None_of_the_Above,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_hJpyiueLwy_spectrogram_4.0.png,None_of_the_Above,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_P13nrcrqiC_spectrogram_4.0.png,None_of_the_Above,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_grLKHqVXtQ_spectrogram_4.0.png,Scattered_Light,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+H1_v40Z0obSw0_spectrogram_4.0.png,Wandering_Line,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
+L1_TdPT1h98QC_spectrogram_4.0.png,Whistle,upper,Low_Frequency_Burst,Low-frequency broadened drift / burst morphology
