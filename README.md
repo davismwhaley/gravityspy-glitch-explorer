@@ -10,25 +10,9 @@
 
 ---
 
-## 🌟 Project Summary
-
-This project builds an **interactive, physics-informed explorer** for the Gravity Spy glitch dataset — the same dataset used by the **LIGO/Virgo/KAGRA collaboration** to classify non-astrophysical noise (“glitches”) in gravitational-wave detectors.
-
-Using:
-
-- **ResNet-18 (transfer learning)** to embed 34,332 spectrograms  
-- **UMAP** to project them into a meaningful 2D morphology space  
-- **HDBSCAN** to identify subclusters and outlier structures  
-
-This tool allows users to:
-
-- Explore glitch morphology visually  
-- Hover over each point to view the actual spectrogram  
-- Inspect substructure inside large glitch classes  
-- Detect disagreements between human and machine labeling  
-- Build a foundation for Phase B (auxiliary channel coupling) and Phase C (impact modeling)
-
-This repository currently contains the complete **Phase A** pipeline.
+### 🌟 Project Vision
+**How do we find a needle in a haystack when the haystack is vibrating?** 
+LIGO detectors are so sensitive they can detect the collision of black holes billions of light-years away—but they also detect trucks driving by, wind, and electronic "glitches." This project applies **Computer Vision** and **Unsupervised Machine Learning** to categorize over 34,000 noise transients, creating a "topographical map" of detector interference to improve gravitational-wave search sensitivity.
 
 ---
 
