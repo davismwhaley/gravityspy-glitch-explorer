@@ -15,7 +15,7 @@ Using:
 - **UMAP** to project them into a meaningful 2D morphology space  
 - **HDBSCAN** to identify subclusters and outlier structures  
 
-this tool allows users to:
+This tool allows users to:
 
 - Explore glitch morphology visually  
 - Hover over each point to view the actual spectrogram  
@@ -29,7 +29,7 @@ This repository currently contains the complete **Phase A** pipeline.
 
 ## 🔍 Live Interactive Dashboard
 
-👉 **[Launch the Interactive UMAP Explorer](https://davismwhaley.github.io/gravityspy-glitch-explorer/umap_interactive_sample.html)**
+👉 **[Launch the Interactive UMAP Explorer](👉 **[Launch the Interactive UMAP Explorer](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)**
 
 Features:
 
