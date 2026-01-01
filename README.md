@@ -67,6 +67,10 @@ Traditional classification only finds what we tell it to look for. By using **HD
 By overlaying human labels on machine-generated clusters, this tool highlights where citizen science labels (Gravity Spy) diverge from mathematical morphology. This serves as a powerful **Data Quality Assurance (QA)** tool for the LIGO/Virgo/KAGRA collaboration.
 
 ---
+## **Why this matters:**
+By cleaning this 28.5% error rate, we improve the training data for the automated veto systems that prevent LIGO from accidentally discarding a real gravitational wave.
+
+---
 
 ## 🛠 Technical Stack
 *   **Deep Learning:** PyTorch (ResNet-18 feature extraction)
