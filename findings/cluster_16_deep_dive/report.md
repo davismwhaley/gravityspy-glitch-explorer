@@ -2,6 +2,8 @@
 **Morphological Evolution Along a Drift-Line Manifold**  
 *Gravity Spy Glitch Explorer – Phase A.2 Case Study*
 
+Cluster 16 exposes how unsupervised ML can outperform citizen-science labeling, revealing a 1-D astrophysical noise family that humans mislabeled nearly 30% of the time. **Cluster 16 contains a 28.5% human label error rate across 302 samples.**
+
 ---
 
 ## 🌌 Overview
@@ -24,13 +26,13 @@ This makes Cluster 16 a perfect case study for demonstrating:
 ---
 ![Cluster 16](umap_cluster16_segments2.png)
 
-The figure above shows the 2-D UMAP projection of Cluster 16, colored by the original human labels. The points lie almost perfectly along a 1-D curvature, yet the color distribution reveals major inconsistencies:
+This visualization shows the 2-D UMAP projection of Cluster 16. Even though the points lie almost perfectly along a 1-D curve, the human labels form inconsistent blocks of color:
 
-- Light blue (Whistle) on the lower-left
-- Pink/red (mixed labels) in the center
-- Green/red (Low Frequency Lines / Power Line) in the top-right
+- Light blue = Whistles (lower segment)
+- Mixed pink/red = Mislabels (middle segment)
+- Green/red = Narrow-line vs. Power Line (upper segment)
 
-This plot demonstrates the core finding of the audit: Human label boundaries do not match the underlying physical morphology.
+This mismatch between manifold geometry and label distribution is the core motivation for the audit.
 
 ## 🧬 Morphological Evolution: A 3-Segment Drift Line
 
@@ -73,7 +75,7 @@ Cluster 16 exposes systematic patterns of human error:
 | Upper  | 102   | 94               | 8            | **7.8%** |
 
 **Insight:**  
-The center of the manifold (narrow-line regime) is the least intuitive for humans and contains the highest mistake rate.
+The center of the manifold is the least intuitive for humans and contains the highest mistake rate.
 
 ---
 
