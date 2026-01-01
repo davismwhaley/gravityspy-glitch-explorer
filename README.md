@@ -99,12 +99,16 @@ This project uses deep learning + dimensional reduction to examine:
 MIT License — feel free to fork, modify, and build upon this project.
 ---
 
-**Acknowledgments**
+---
+
+**Acknowledgments:**
+
 Gravity Spy (GWOSC + Zooniverse)
 
 LIGO/Virgo/KAGRA Collaboration
 
 PyTorch, UMAP-learn, HDBSCAN, Plotly
+
 ---
 
 ## 🛠 Installation (local)
