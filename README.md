@@ -19,19 +19,6 @@ This repository currently contains **Phase A** of the planned research pipeline.
 
 ---
 
-## 🔍 Live Interactive Dashboard
-
-Click below to explore the 2D embedding:
-
-👉 **[Interactive UMAP Dashboard](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)**
-
-- Pan & zoom freely  
-- Hover over points to see spectrogram thumbnails  
-- Color-coded by HDBSCAN cluster  
-- Subsampling used for performance (< 5K points shown live)
-
----
-
 ## 📦 Project Structure
 
 # Gravity Spy Glitch Explorer  
