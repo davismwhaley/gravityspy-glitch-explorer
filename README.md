@@ -9,6 +9,27 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
+## **Major Discovery (Phase B – Ongoing)**
+**New:** During the Human–AI audit phase, I discovered a continuous frequency-drifting glitch family (Cluster 16) that humans had split across eight different labels (“Whistle,” “Low_Frequency_Lines,” “Air_Compressor,” etc.).
+
+Using a manifold-based segmentation approach, I found that:
+- Cluster 16 contains 302 samples
+- **28.5% of human labels are inconsistent**
+- The morphology forms a single continuous 1-D drift, not separate classes
+- A segment-based relabeling rule improves label consistency dramatically
+
+**Artifacts (Phase B):**
+
+🔍 - 3-Row Visual Atlas: /findings/cluster_16_deep_dive/atlas_3row.png
+
+📊 - Correction Table: /findings/cluster_16_deep_dive/correction_table.csv
+
+📝 - Case Study: /findings/cluster_16_deep_dive/report.md
+
+This marks the project's first major scientific insight:
+**Unsupervised learning uncovered a previously unrecognized glitch family hidden beneath noisy and inconsistent human labels.**
+
+---
 
 ### 🌟 Project Vision
 **How do we find a needle in a haystack when the haystack is vibrating?** 
@@ -59,9 +80,9 @@ By overlaying human labels on machine-generated clusters, this tool highlights w
 *   [x] Cluster Purity & Metadata Analysis
 
 ### Phase B: Human-AI Discrepancy Audit (Current Sprint)
-*   [ ] Tuning HDBSCAN parameters to identify "Impure" clusters (where AI and human labels diverge).
-*   [ ] Identifying "None of the Above" and "Noisy" sub-clusters to discover potential new glitch morphologies.
-*   [ ] Auditing human label consistency: Identifying where the AI groups different labels together based on superior morphological similarity.
+*   [x] Tuning HDBSCAN parameters to identify "Impure" clusters (where AI and human labels diverge).
+*   [x] Identifying "None of the Above" and "Noisy" sub-clusters to discover potential new glitch morphologies.
+*   [x] Auditing human label consistency: Identifying where the AI groups different labels together based on superior morphological similarity.
 
 ---
 
