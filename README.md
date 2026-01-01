@@ -61,7 +61,7 @@ By overlaying human labels on machine-generated clusters, this tool highlights w
 ### Phase B: Human-AI Discrepancy Audit (Current Sprint)
 *   [ ] Tuning HDBSCAN parameters to identify "Impure" clusters (where AI and human labels diverge).
 *   [ ] Identifying "None of the Above" and "Noisy" sub-clusters to discover potential new glitch morphologies.
-*   [ ] Auditing human label consistency: Identifying instances where the AI groups different labels together based on superior morphological similarity.
+*   [ ] Auditing human label consistency: Identifying where the AI groups different labels together based on superior morphological similarity.
 
 ---
 
