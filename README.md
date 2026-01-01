@@ -95,9 +95,10 @@ By overlaying human labels on machine-generated clusters, this tool highlights w
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/davismwhaley/gravityspy-glitch-explorer.git
-
+git clone https://github.com/davismwhaley/gravityspy-glitch-explorer.git
+cd gravityspy-glitch-explorer
 pip install -r notebooks/requirements.txt
+
 
 ---
 ## **Contact**
