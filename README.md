@@ -75,12 +75,12 @@ LIGO’s detectors are sensitive enough to detect spacetime distortions smaller 
 
 This explorer helps investigate:
 
-- How glitch types organize morphologically
+- How glitch types organize morphologically, categorizing them by blip glitches, whistles, scattered light, and coincidence class.
 - Whether subclasses or subclusters exist within known types
 - Where human labels and machine-learned clusters disagree
 - Which regions of the embedding deserve deeper investigation (Phase B)
 
-This style of exploration mirrors **detector-characterization research** done inside the LIGO Scientific Collaboration.
+  Different clusters appear up/down/left/right because they have different spectrogram shapes. They may share internal structure, or vary continuously along one or two morphological dimensions. This style of exploration mirrors **detector-characterization research** done inside the LIGO Scientific Collaboration.
 
 ---
 
