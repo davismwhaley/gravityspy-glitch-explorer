@@ -53,7 +53,7 @@ Features:
 
 ### **2. Dimensionality Reduction (UMAP)**
 - `n_neighbors=30`, `min_dist=0.1`, `metric="cosine"`
-- Produces a smooth, interpretable 2D manifold
+- Produces a smooth, interpretable 2D manifold UMAP from a 512-D space.
 - Captures subtle differences in glitch morphology
 
 ### **3. Clustering (HDBSCAN)**
