@@ -1,5 +1,6 @@
 # 🚀 Gravity Spy Glitch Explorer  
 *LIGO Gravity Spy Glitch Explorer: Unsupervised Morphology Mapping*
+This repository documents an end-to-end research pipeline for discovering and auditing glitch families in LIGO spectrogram data.
 
 ![UMAP Preview](figures/preview/umap_preview.png)
 
@@ -9,8 +10,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
-## **Major Discovery (Phase B – Ongoing)**
+## **Featured Case Study: Cluster 16 Drift-Line Manifold**
 **New:** During the Human–AI audit phase, I discovered a continuous frequency-drifting glitch family (Cluster 16) that humans had split across eight different labels (“Whistle,” “Low_Frequency_Lines,” “Air_Compressor,” etc.).
+
+![Cluster 16](umap_cluster16_segments2.png)
 
 Using a manifold-based segmentation approach, I found that:
 - Cluster 16 contains 302 samples
@@ -18,7 +21,7 @@ Using a manifold-based segmentation approach, I found that:
 - The morphology forms a single continuous 1-D drift, not separate classes
 - A segment-based relabeling rule improves label consistency dramatically
 
-### 📂 Cluster 16 Case Study Files
+### 📂 Cluster 16 Files
 - 🖼 **Atlas:**  
   [`atlas_3row.png`](findings/cluster_16_deep_dive/atlas_3row.png)
 
