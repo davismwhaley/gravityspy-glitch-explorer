@@ -18,13 +18,15 @@ Using a manifold-based segmentation approach, I found that:
 - The morphology forms a single continuous 1-D drift, not separate classes
 - A segment-based relabeling rule improves label consistency dramatically
 
-**Artifacts (Phase B):**
+### 📂 Cluster 16 Case Study Files
+- 🖼 **Atlas:**  
+  [`atlas_3row.png`](findings/cluster_16_deep_dive/atlas_3row.png)
 
-🔍 - 3-Row Visual Atlas: /findings/cluster_16_deep_dive/atlas_3row.png
+- 📊 **Correction Table:**  
+  [`correction_table.csv`](findings/cluster_16_deep_dive/correction_table.csv)
 
-📊 - Correction Table: /findings/cluster_16_deep_dive/correction_table.csv
-
-📝 - Case Study: /findings/cluster_16_deep_dive/report.md
+- 📝 **Case Study Summary:**  
+  [`report.md`](findings/cluster_16_deep_dive/report.md)
 
 This marks the project's first major scientific insight:
 **Unsupervised learning uncovered a previously unrecognized glitch family hidden beneath noisy and inconsistent human labels.**
