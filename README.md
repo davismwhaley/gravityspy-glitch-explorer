@@ -34,32 +34,6 @@ Click below to explore the 2D embedding:
 
 ---
 
-## 📦 Project Structure
-
-gravityspy-glitch-explorer/
-│
-├── data/ # (stored locally, not tracked)
-│ ├── gravityspy_raw/ # original Gravity Spy dataset
-│ └── gravityspy_processed/ # computed embeddings + metadata
-│
-├── src/
-│ └── gravityspy_compute_embeddings.py # ResNet-18 embedding pipeline
-│
-├── notebooks/
-│ └── A2_umap_hdbscan.ipynb # UMAP + HDBSCAN + visualization
-│
-├── figures/
-│ ├── glitch_atlas/ # grid previews of selected clusters
-│ ├── umap_by_label.html
-│ └── umap_interactive_sample.html # 🔥 interactive dashboard
-│
-├── README.md
-├── LICENSE
-└── .gitignore
-
-
----
-
 ## 🧠 Methods Summary
 
 ### **1. CNN Embeddings (ResNet-18)**
