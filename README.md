@@ -29,7 +29,7 @@ This repository currently contains the complete **Phase A** pipeline.
 
 ## 🔍 Live Interactive Dashboard
 
-👉 **[Launch the Interactive UMAP Explorer](👉 **[Launch the Interactive UMAP Explorer](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)**
+👉 **[Launch the Interactive UMAP Explorer](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)**
 
 Features:
 
