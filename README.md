@@ -21,31 +21,11 @@ LIGO detectors are so sensitive they can detect the collision of black holes bil
 
 ---
 
-## 🧠 Technical Overview
-
-### **1. CNN Embeddings (ResNet-18)**
-- Spectrograms resized to **224×224**
-- Converted to **3-channel grayscale**
-- Passed through ImageNet-pretrained **ResNet-18**
-- Final FC replaced with `Identity()`
-- Output: **512-dimensional embedding**
-- Total images processed: **34,332**
-
-### **2. Dimensionality Reduction (UMAP)**
-- `n_neighbors=30`, `min_dist=0.1`, `metric="cosine"`
-- Produces a smooth, interpretable 2D manifold UMAP from a 512-D space.
-- Captures subtle differences in glitch morphology
-
-### **3. Clustering (HDBSCAN)**
-- Density-based clustering to identify stable glitch families
-- `cluster = -1` retained as a noise group
-- Many clusters exhibit high purity relative to Gravity Spy labels
-- Useful for discovering latent substructure inside classes like H1L1
-
-### **4. Interactive Visualization (Plotly)**
-- Thumbnails embedded as Base64 images
-- Hover tooltips display **cluster**, **label**, and **file path**
-- Exported to standalone HTML for GitHub Pages hosting
+## 💡 Key Achievements (Phase A)
+*   **Deep Feature Extraction:** Engineered a pipeline using a **Pre-trained ResNet-18 (Transfer Learning)** to convert raw spectrogram images into 512-dimensional feature vectors, capturing nuances human observers might miss.
+*   **Manifold Learning:** Utilized **UMAP (Uniform Manifold Approximation and Projection)** to compress high-dimensional noise patterns into an interpretable 2D "Glitch Map," preserving both local and global data structures.
+*   **Unsupervised Discovery:** Implemented **HDBSCAN** to automatically identify 50+ distinct glitch families. This revealed hidden sub-structures within known classes (like H1L1) that manual labeling often overlooks.
+*   **Front-End Engineering:** Successfully processed and visualized **34,332 records**, optimizing the dashboard with Base64 image encoding for seamless performance on GitHub Pages.
 
 ---
 
