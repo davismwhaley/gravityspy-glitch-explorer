@@ -7,30 +7,35 @@
 
 ## 🚀 Overview
 
-This project builds an **interactive, physics-informed explorer** for the Gravity Spy glitch dataset, used by LIGO/Virgo/KAGRA to classify non-astrophysical noise (“glitches”) in gravitational-wave detectors.
+This project builds an **interactive, data-scientist–friendly visual explorer** for the Gravity Spy glitch dataset — the same dataset used by the **LIGO/Virgo/KAGRA collaboration** to classify non-astrophysical noise (“glitches”) in gravitational-wave detectors.
 
-Using a pretrained **ResNet-18** to extract embeddings from 34,332 spectrograms, followed by **UMAP** for dimensionality reduction and **HDBSCAN** for clustering, this tool allows users to:
+Using:
 
-- Explore LIGO glitch morphology in 2D  
-- Hover over each point to view the **actual spectrogram**  
-- Visually inspect substructure inside large glitch classes  
-- Identify human vs. machine discrepancies  
-- Build a foundation for Phase B (aux channel correlation) and Phase C (impact analysis)
+- **ResNet-18** (transfer learning) to embed 34,332 spectrograms
+- **UMAP** to project them into a meaningful 2D morphology space  
+- **HDBSCAN** to identify subclusters and outlier structures
 
-This repository currently contains **Phase A** of the planned research pipeline.
+This tool allows users to:
+
+- Explore the structure of glitch families visually
+- Hover over individual points to see real spectrogram thumbnails
+- Inspect latent substructure within large categories
+- Identify discrepancies between machine-defined clusters and human labels
+- Build the foundation for advanced analysis (Phase B & C below)
+
+This repository currently contains Phase A, the complete embedding + clustering + interactive visualization pipeline.
 
 ---
 
 ## 🔍 Live Interactive Dashboard
 
-Click below to explore the 2D embedding:
+👉 **[Launch the Interactive UMAP Explorer](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)**
 
-👉 **[Interactive UMAP Dashboard](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)**
-
-- Pan & zoom freely  
-- Hover over points to see spectrogram thumbnails  
-- Color-coded by HDBSCAN cluster  
-- Subsampling used for performance (< 5K points shown live)
+- Fast pan/zoom even with thousands of points  
+- Hover over any point to view the actual glitch spectrogram 
+- Color-coded HDBSCAN clusters 
+- Subsampled (<5K points) for web performance
+- Fully standalone (runs on GitHub Pages)
 
 ---
 
