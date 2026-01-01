@@ -28,20 +28,6 @@ This repository currently contains **Phase A** of the planned research pipeline.
 
 ![UMAP Preview](figures/preview/umap_preview.png)
 
-## 🚀 Overview
-
-This project builds an **interactive, physics-informed explorer** for the Gravity Spy glitch dataset, used by LIGO/Virgo/KAGRA to classify non-astrophysical noise (“glitches”) in gravitational-wave detectors.
-
-Using a pretrained **ResNet-18** to extract embeddings from 34,332 spectrograms, followed by **UMAP** for dimensionality reduction and **HDBSCAN** for clustering, this tool allows users to:
-
-- Explore LIGO glitch morphology in 2D  
-- Hover over each point to view the **actual spectrogram**  
-- Visually inspect substructure inside large glitch classes  
-- Identify human vs. machine discrepancies  
-- Build a foundation for Phase B (aux channel correlation) and Phase C (impact analysis)
-
-This repository currently contains **Phase A** of the planned research pipeline.
-
 ---
 
 ## 🔍 Live Interactive Dashboard
