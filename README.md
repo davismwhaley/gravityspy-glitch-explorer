@@ -3,6 +3,8 @@
 
 ![UMAP Preview](figures/preview/umap_preview.png)
 
+---
+
 ## 🚀 Overview
 
 This project builds an **interactive, physics-informed explorer** for the Gravity Spy glitch dataset, used by LIGO/Virgo/KAGRA to classify non-astrophysical noise (“glitches”) in gravitational-wave detectors.
