@@ -22,6 +22,7 @@ This makes Cluster 16 a perfect case study for demonstrating:
 - A principled strategy for relabeling citizen-science datasets  
 
 ---
+(`umap_cluster16_segments.png`)
 
 ## 🧬 Morphological Evolution: A 3-Segment Drift Line
 
