@@ -58,13 +58,10 @@ By overlaying human labels on machine-generated clusters, this tool highlights w
 *   [x] Interactive UMAP Explorer with Image Previews
 *   [x] Cluster Purity & Metadata Analysis
 
-### **Phase B: Detector Coupling (In Progress)** 
-*   [ ] Correlation of glitch clusters with **LIGO Auxiliary Channels** (Seismic, Magnetic, Voltage) using `GWpy`.
-*   [ ] Identifying predictive precursors in environmental sensors to forecast glitches.
-
-### **Phase C: Impact & Explainability**
-*   [ ] Quantifying "Glitch Cost" by measuring the dip in binary neutron star (BNS) inspiral range during high-activity periods.
-*   [ ] Using **SHAP Values** to determine which specific sensors are the primary drivers of glitch production.
+### **Phase B: Human-AI Discrepancy Audit (Current Sprint)
+*   [ ] Tuning HDBSCAN parameters to identify "Impure" clusters (where AI and human labels diverge).
+*   [ ] Identifying "None of the Above" and "Noisy" sub-clusters to discover potential new glitch morphologies.
+*   [ ] Auditing human label consistency: Identifying instances where the AI groups different labels together based on superior morphological similarity.
 
 ---
 
