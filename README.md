@@ -70,14 +70,15 @@ This has implications for:
 
 ## 🧠 Data Science Methodology
 
-### 1. The Embedding Pipeline
-Instead of relying on human-defined features (like duration or frequency), I used a **Convolutional Neural Network (CNN)** to "learn" the morphology. By stripping the final classification layer of a ResNet-18 model and using the 512-D identity output, I repurposed the model to act as a high-level visual descriptor for astrophysical noise.
+## **Figure Index (Evidence Map)**
+**Figure**	**Description**
+Fig. 1	Global UMAP embedding of Gravity Spy spectrograms
+Fig. 2	Ambiguity-ranked cluster table (purity × size)
+Fig. 3	Cluster 33 contact sheet (over-splitting across labels)
+Fig. 4	Cluster 41 ordered strip by intensity (over-compression)
+Fig. 5	Entropy comparison between Cluster 33 and 41
 
-### 2. Discovering the "Unknown Unknowns"
-Traditional classification only finds what we tell it to look for. By using **HDBSCAN (Density-Based Clustering)**, this project identifies "Noise" (Cluster -1) and outliers. This helps LIGO researchers to identify **new instrumental faults** before the collaboration officially names them.
-
-### 3. Human-Machine Disagreement
-By overlaying human labels on machine-generated clusters, this tool highlights where citizen science labels (Gravity Spy) diverge from mathematical morphology. This serves as a powerful **Data Quality Assurance (QA)** tool for the LIGO/Virgo/KAGRA collaboration.
+All figures are stored under /findings/ with reproducible notebooks.
 
 ---
 ## **Why this matters:**
