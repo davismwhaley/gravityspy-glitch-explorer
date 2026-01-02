@@ -98,11 +98,11 @@ By cleaning this 28.5% error rate, we improve the training data for the automate
 ## 🛠 Installation & Local Development
 
 1. **Clone the repo:**
-   ```bash
-git clone https://github.com/davismwhaley/gravityspy-glitch-explorer.git
-cd gravityspy-glitch-explorer
-pip install -r notebooks/requirements.txt
 
+   ```bash
+   git clone https://github.com/davismwhaley/gravityspy-glitch-explorer.git
+   cd gravityspy-glitch-explorer
+   pip install -r notebooks/requirements.txt
 
 ---
 ## **Contact**
