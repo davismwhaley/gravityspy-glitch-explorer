@@ -75,7 +75,7 @@ This has implications for:
 
 Fig. 1	[`Global UMAP embedding of Gravity Spy spectrograms`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig1_umap_global_by_cluster.png) 
 
-Fig. 2	Ambiguity-ranked cluster table (purity × size)
+Fig. 2	[`Ambiguity-ranked cluster table (purity × size)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig2_ambiguity_ranked_clusters_top15.png)
 
 Fig. 3 [`Cluster 33 contact sheet (over-splitting across labels`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png)	
 
