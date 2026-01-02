@@ -77,7 +77,8 @@ Fig. 1	Global UMAP embedding of Gravity Spy spectrograms
 
 Fig. 2	Ambiguity-ranked cluster table (purity × size)
 
-Fig. 3	Cluster 33 contact sheet (over-splitting across labels)
+Fig. 3 (https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png)	
+Cluster 33 contact sheet (over-splitting across labels)
 
 Fig. 4	Cluster 41 ordered strip by intensity (over-compression)
 
