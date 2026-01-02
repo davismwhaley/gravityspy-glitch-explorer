@@ -1,16 +1,11 @@
 # 🚀 Gravity Spy Glitch Explorer  
-*LIGO Gravity Spy Glitch Explorer: Unsupervised Morphology Mapping*
-This repository documents an end-to-end research pipeline for discovering and auditing glitch families in LIGO spectrogram data.
+**Auditing Failure Modes in Human-in-the-Loop Glitch Taxonomies Using Unsupervised Learning**
+This repository documents a research-grade audit of human-labeled glitch taxonomies in LIGO’s Gravity Spy dataset using CNN embeddings, manifold learning, and density-based clustering.
 
-![UMAP Preview](figures/preview/umap_preview.png)
+Rather than treating human labels as ground truth, this project asks:
+**Where do human taxonomies align with learned morphology — and where do they systematically fail?**
 
-*spectrogram morphology map showing clusters of glitches*
-
-
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Deep Learning](https://img.shields.io/badge/Framework-PyTorch-EE4C2C.svg)](https://pytorch.org/)
-[![Interactive](https://img.shields.io/badge/Dashboard-Plotly-3F4F75.svg)](https://plotly.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+The result is a reproducible framework for data quality assurance, taxonomy validation, and interpretability in scientific ML pipelines.
 
 ---
 ## **Featured Case Study: Cluster 16 Drift-Line Manifold**
@@ -95,6 +90,16 @@ By cleaning this 28.5% error rate, we improve the training data for the automate
 *   [x] Tuning HDBSCAN parameters to identify "Impure" clusters (where AI and human labels diverge).
 *   [x] Identifying "None of the Above" and "Noisy" sub-clusters to discover potential new glitch morphologies.
 *   [x] Auditing human label consistency: Identifying where the AI groups different labels together based on superior morphological similarity.
+
+![UMAP Preview](figures/preview/umap_preview.png)
+
+*spectrogram morphology map showing clusters of glitches*
+
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Deep Learning](https://img.shields.io/badge/Framework-PyTorch-EE4C2C.svg)](https://pytorch.org/)
+[![Interactive](https://img.shields.io/badge/Dashboard-Plotly-3F4F75.svg)](https://plotly.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
