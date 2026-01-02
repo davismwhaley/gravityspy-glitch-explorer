@@ -81,7 +81,7 @@ Fig. 3 [`Cluster 33 contact sheet (over-splitting across labels`](https://davism
 
 Fig. 4	[`Cluster 41 ordered strip by intensity (over-compression)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png) 
 
-Fig. 5	Entropy comparison between Cluster 33 and 41
+Fig. 5	[`Entropy comparison between Cluster 33 and 41`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig5_label_entropy_cluster33_vs_cluster41.png)
 
 All figures are stored under /findings/ with reproducible notebooks.
 
