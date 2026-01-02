@@ -27,7 +27,7 @@ to audit where human labels diverge from learned morphology, and why.
 
 A global audit of 34,332 spectrograms reveals two opposite and systematic failure modes in human labeling:
 
-**Failure Mode I — Over-Splitting (Cluster 33)**
+**Failure Mode I — Over-Splitting: one morphology → many labels (Cluster 33)**
 
 _A single coherent morphology fragmented across many labels._
 
@@ -41,7 +41,7 @@ Human labels such as _Violin_Mode_, _Power_Line_, _Low_Frequency_Lines_, and _10
 
 ---
 
-**Failure Mode II — Over-Compression (Cluster 41)**
+**Failure Mode II — Over-Compression: many morphologies → one label (Cluster 41)**
 _A graded family of morphologies collapsed into one dominant label._
 
 Within Cluster 41, a central “blip-like” impulse anchors a smooth continuum of increasing bandwidth and temporal smearing. When ordered by total spectrogram intensity, morphology changes monotonically without discrete boundaries.
@@ -113,9 +113,11 @@ This case study demonstrated:
   [`report.md`](findings/cluster_16_deep_dive/report.md)
 
 ---
-## **Future work and what this project is _not_**
+## **Future work and what this project is and is _not_**
 
 This project does not attempt to identify specific detector subsystems or claim causal mechanisms for individual glitches. Instead, it focuses on auditing the internal consistency of human-in-the-loop taxonomies using unsupervised morphology. Physical attribution via auxiliary channels is a natural follow-on, but not required to diagnose taxonomy failure modes.
+
+Although demonstrated on Gravity Spy, this audit framework applies to any scientific dataset labeled by humans at scale (e.g., medical imaging, microscopy, remote sensing), where taxonomies evolve faster than labeling consistency.
 
 While the morphological audit confirms taxonomical fragmentation, the next logical step is physical grounding via auxiliary channel correlation. Due to the restricted nature of LIGO's internal sensor data, this remains a target for future collaboration with access to the full NDS2 server.
 
