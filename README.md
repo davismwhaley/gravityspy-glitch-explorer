@@ -73,7 +73,7 @@ This has implications for:
 ## **Figure Index (Evidence Map)**
 **Figure**	**Description**
 
-Fig. 1	(https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig1_umap_global_by_cluster.png) 
+Fig. 1	[`Global UMAP embedding of Gravity Spy spectrograms`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig1_umap_global_by_cluster.png) 
 
 Global UMAP embedding of Gravity Spy spectrograms
 
