@@ -1,4 +1,4 @@
-# 🚀 Gravity Spy Glitch Explorer  
+## 🚀 Gravity Spy Glitch Explorer  
 **Auditing Failure Modes in Human-in-the-Loop Glitch Taxonomies Using Unsupervised Learning**
 This repository documents a research-grade audit of human-labeled glitch taxonomies in LIGO’s Gravity Spy dataset using CNN embeddings, manifold learning, and density-based clustering.
 
@@ -8,7 +8,7 @@ Rather than treating human labels as ground truth, this project asks:
 The result is a reproducible framework for data quality assurance, taxonomy validation, and interpretability in scientific ML pipelines.
 
 ---
-**Project Overview**
+## **Project Overview**
 
 **How do we find a needle in a haystack when the haystack is vibrating?** 
 LIGO detectors are so sensitive that they can detect the collision of black holes billions of light-years away, but they also detect trucks driving by, wind, and electronic "glitches." This project applies **Computer Vision** and **Unsupervised Machine Learning** to categorize over 34,000 noise transients, creating a "topographical map" of detector interference to improve gravitational-wave search sensitivity. The Gravity Spy dataset combines citizen science and expert labeling to classify instrumental glitches in LIGO spectrograms. While highly valuable, such hybrid labeling systems are susceptible to inconsistency, drift, and structural bias.
