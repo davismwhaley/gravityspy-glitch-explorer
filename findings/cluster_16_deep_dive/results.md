@@ -16,3 +16,38 @@ where purity is the fraction of samples belonging to the most common human label
 
 This metric highlights large clusters with substantial label mixing.
 Figure 2 shows the top-ranked ambiguous clusters. Two clusters—Cluster 33 and Cluster 41—exhibit particularly strong and interpretable disagreement patterns and are examined in detail below.
+
+---
+
+## **4.2 Failure Mode I: Over-Splitting (Cluster 33)**
+
+Cluster 33 contains 2,106 samples and exhibits low label purity (~0.22). No single Gravity Spy label dominates; instead, labels such as _Violin_Mode_, _Power_Line_, _Low_Frequency_Lines_, and _1080Lines_ appear with comparable frequency.
+
+A controlled contact-sheet visualization (five samples per label for the six most frequent labels) is shown in Figure 3. Despite divergent human-assigned labels, the spectrograms display nearly indistinguishable narrow-band, line-like morphologies.
+
+This cluster therefore exemplifies **over-splitting**, in which a single coherent instrumental morphology is subdivided across multiple human taxonomies without corresponding physical distinctions.
+
+---
+
+## **4.3 Failure Mode II: Over-Compression (Cluster 41)**
+
+Cluster 41 is the largest ambiguous cluster, containing 3,915 samples. While Blip is the plurality label (~48%), substantial fractions of samples are labeled as _Koi_Fish_, _Low_Frequency_Burst_, and _Light_Modulation_.
+
+To determine whether this label mixing reflects random variation or structured morphology, samples within Cluster 41 were ordered by **total spectrogram intensity**, a simple proxy for signal strength and bandwidth. The resulting ordered visualization _(Figure 4)_ reveals a smooth, monotonic progression from thin, impulsive features to increasingly thick and temporally smeared morphologies, without discrete boundaries.
+
+Cluster 41 therefore demonstrates over-compression, in which a graded family of related morphologies is collapsed into a single dominant human label.
+
+---
+
+## **4.4 Quantitative Contrast via Label Entropy**
+
+To quantify label diversity within clusters, Shannon label entropy was computed for each cluster:
+
+H=−i∑​pi​log2​pi​,
+
+where _pi_ is the fraction of samples assigned to label _i_.
+
+Cluster 33 exhibits higher entropy (H=2.82) than Cluster 41 (H=2.26) as shown in Figure 5. This difference reflects distinct structural causes: near-uniform fragmentation across labels in Cluster 33 versus dominance of a single label over a graded continuum in Cluster 41.
+
+
+
