@@ -72,17 +72,42 @@ This has implications for:
 
 ## **Figure Index (Evidence Map)**
 **Figure**	**Description**
+
 Fig. 1	Global UMAP embedding of Gravity Spy spectrograms
+
 Fig. 2	Ambiguity-ranked cluster table (purity × size)
+
 Fig. 3	Cluster 33 contact sheet (over-splitting across labels)
+
 Fig. 4	Cluster 41 ordered strip by intensity (over-compression)
+
 Fig. 5	Entropy comparison between Cluster 33 and 41
 
 All figures are stored under /findings/ with reproducible notebooks.
 
 ---
-## **Why this matters:**
-By cleaning this 28.5% error rate, we improve the training data for the automated veto systems that prevent LIGO from accidentally discarding a real gravitational wave.
+## **Featured Case Study (Early Phase): Cluster 16 Drift-Line Manifold**
+
+Before the global audit, **Cluster 16** provided the initial motivation for this work.
+
+Cluster 16 forms a 1-D drift manifold where glitch morphology evolves smoothly across frequency regimes, yet human labels disagree nearly **30% of the time**.
+
+This case study demonstrated:
+
+- Morphological continuity
+- Segment-dependent human error rates
+- A principled relabeling strategy
+
+📁 **Cluster 16 Files:**
+
+- 🖼 **Atlas:**  
+  [`atlas_3row.png`](findings/cluster_16_deep_dive/atlas_3row.png)
+
+- 📊 **Correction Table:**  
+  [`correction_table.csv`](findings/cluster_16_deep_dive/correction_table.csv)
+
+- 📝 **Case Study Summary:**  
+  [`report.md`](findings/cluster_16_deep_dive/report.md)
 
 ---
 
@@ -94,6 +119,19 @@ By cleaning this 28.5% error rate, we improve the training data for the automate
 *   **Visualization:** Plotly (Interactive HTML), Matplotlib/Seaborn
 
 ---
+
+## **Methods (Brief)**
+
+- **Embedding:** ResNet-18 (transfer learning)
+- **Manifold Learning:** UMAP (cosine metric)
+- **Clustering:** HDBSCAN
+- **Diagnostics:** Cluster purity, ambiguity score, label entropy
+- **Visualization:** Matplotlib, Plotly (interactive dashboard)
+
+---
+
+## **Interactive Explorer**
+(https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
 
 ## 🗺 Strategic Roadmap
 
@@ -113,14 +151,7 @@ By cleaning this 28.5% error rate, we improve the training data for the automate
 *Note: This interactive UMAP lets you hover over data points to see specific spectrogram morphology associated with each cluster in real-time.* 
 
 ### 📂 Cluster 16 Files
-- 🖼 **Atlas:**  
-  [`atlas_3row.png`](findings/cluster_16_deep_dive/atlas_3row.png)
 
-- 📊 **Correction Table:**  
-  [`correction_table.csv`](findings/cluster_16_deep_dive/correction_table.csv)
-
-- 📝 **Case Study Summary:**  
-  [`report.md`](findings/cluster_16_deep_dive/report.md)
 
 *spectrogram morphology map showing clusters of glitches*
 
