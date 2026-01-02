@@ -133,28 +133,9 @@ This case study demonstrated:
 ## **Interactive Explorer**
 (https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
 
-## 🗺 Strategic Roadmap
+Hover over points to inspect individual spectrograms and cluster assignments.
 
-### **Phase A: Morphology Discovery (Completed)** 
-*   [x] 34k+ Image Embedding via Transfer Learning
-*   [x] Interactive UMAP Explorer with Image Previews
-*   [x] Cluster Purity & Metadata Analysis
-
-### Phase B: Human-AI Discrepancy Audit (Current Sprint)
-*   [x] Tuning HDBSCAN parameters to identify "Impure" clusters (where AI and human labels diverge).
-*   [x] Identifying "None of the Above" and "Noisy" sub-clusters to discover potential new glitch morphologies.
-*   [x] Auditing human label consistency: Identifying where the AI groups different labels together based on superior morphological similarity.
-
-![UMAP Preview](figures/preview/umap_preview.png)
-
-## 🔍 [View the Live Interactive Dashboard](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
-*Note: This interactive UMAP lets you hover over data points to see specific spectrogram morphology associated with each cluster in real-time.* 
-
-### 📂 Cluster 16 Files
-
-
-*spectrogram morphology map showing clusters of glitches*
-
+---
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Deep Learning](https://img.shields.io/badge/Framework-PyTorch-EE4C2C.svg)](https://pytorch.org/)
