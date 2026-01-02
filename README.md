@@ -75,15 +75,13 @@ This has implications for:
 
 Fig. 1	[`Global UMAP embedding of Gravity Spy spectrograms`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig1_umap_global_by_cluster.png) 
 
-Global UMAP embedding of Gravity Spy spectrograms
-
 Fig. 2	Ambiguity-ranked cluster table (purity × size)
 
-Fig. 3 (https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png)	
+Fig. 3 [`Cluster 33 contact sheet (over-splitting across labels`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png)	
 
 Cluster 33 contact sheet (over-splitting across labels)
 
-Fig. 4	(https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png) 
+Fig. 4	[`Cluster 41 ordered strip by intensity (over-compression)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png) 
 
 Cluster 41 ordered strip by intensity (over-compression)
 
