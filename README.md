@@ -3,6 +3,7 @@
 This repository documents an end-to-end research pipeline for discovering and auditing glitch families in LIGO spectrogram data.
 
 ![UMAP Preview](figures/preview/umap_preview.png)
+
 *spectrogram morphology map showing clusters of glitches*
 
 
