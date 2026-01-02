@@ -49,5 +49,19 @@ where _pi_ is the fraction of samples assigned to label _i_.
 
 Cluster 33 exhibits higher entropy (H=2.82) than Cluster 41 (H=2.26) as shown in Figure 5. This difference reflects distinct structural causes: near-uniform fragmentation across labels in Cluster 33 versus dominance of a single label over a graded continuum in Cluster 41.
 
+---
+
+## **4.5 Summary of Observed Failure Modes**
+
+Together, these results identify two opposite but systematic failure modes in human-in-the-loop glitch taxonomies:
+
+- Over-splitting: one morphology fragmented into many labels (Cluster 33).
+- Over-compression: multiple related morphologies collapsed into one dominant label (Cluster 41).
+
+  Both failure modes are detectable using the same unsupervised audit pipeline and do not require physical attribution via auxiliary channels.
+
+
+
+
 
 
