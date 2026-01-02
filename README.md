@@ -72,8 +72,6 @@ This has implications for:
 
 ---
 
-## 🧠 Data Science Methodology
-
 ## **Figure Index (Evidence Map)**
 **Figure**	**Description**
 
