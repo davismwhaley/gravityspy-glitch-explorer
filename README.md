@@ -27,9 +27,17 @@ to audit where human labels diverge from learned morphology, and why.
 
 A global audit of 34,332 spectrograms reveals two opposite and systematic failure modes in human labeling:
 
-Failure Mode I — Over-Splitting (Cluster 33)
+**Failure Mode I — Over-Splitting (Cluster 33)**
 
-A single coherent morphology fragmented across many labels.
+_A single coherent morphology fragmented across many labels._
+
+Human labels such as _Violin_Mode_, _Power_Line_, _Low_Frequency_Lines_, and _1080Lines_ are applied to nearly indistinguishable narrow-band line artifacts.
+
+- High label entropy (H = 2.82)
+- Low cluster purity (~0.22)
+- Visual contact sheets show near-identical morphology across labels
+
+➡️ **Humans subdivided one physical phenomenon into many categories.**
 
 ---
 
