@@ -43,7 +43,7 @@ Cluster 41 therefore demonstrates over-compression, in which a graded family of 
 
 To quantify label diversity within clusters, Shannon label entropy was computed for each cluster:
 
-H=−i∑​pi​log2​pi​,
+H = -∑ p_i log2(p_i),
 
 where _pi_ is the fraction of samples assigned to label _i_.
 
@@ -58,7 +58,10 @@ Together, these results identify two opposite but systematic failure modes in hu
 - Over-splitting: one morphology fragmented into many labels (Cluster 33).
 - Over-compression: multiple related morphologies collapsed into one dominant label (Cluster 41).
 
-  Both failure modes are detectable using the same unsupervised audit pipeline and do not require physical attribution via auxiliary channels.
+Both failure modes are detectable using the same unsupervised audit pipeline and do not require physical attribution via auxiliary channels.
+
+---
+
 
 
 
