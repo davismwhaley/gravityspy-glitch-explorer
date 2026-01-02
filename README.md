@@ -100,6 +100,9 @@ This case study demonstrated:
 
 📁 **Cluster 16 Files:**
 
+- **Cluster 16 Report**
+[`Cluster 16 Report`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/findings/cluster_16_deep_dive/report.md)
+
 - 🖼 **Atlas:**  
   [`atlas_3row.png`](findings/cluster_16_deep_dive/atlas_3row.png)
 
@@ -108,6 +111,12 @@ This case study demonstrated:
 
 - 📝 **Case Study Summary:**  
   [`report.md`](findings/cluster_16_deep_dive/report.md)
+
+---
+
+## **Future Work**
+
+While the morphological audit confirms taxonomical fragmentation, the next logical step is physical grounding via auxiliary channel correlation. Due to the restricted nature of LIGO's internal sensor data, this remains a target for future collaboration with access to the full NDS2 server.
 
 ---
 
