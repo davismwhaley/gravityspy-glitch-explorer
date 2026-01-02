@@ -54,6 +54,10 @@ Within Cluster 41, a central “blip-like” impulse anchors a smooth continuum 
 
 ---
 
+Results are fully explained in [`results.md`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/findings/cluster_16_deep_dive/results.md)
+
+---
+
 **Why This Matters**
 
 These results show that **label errors are structured, not random**.
