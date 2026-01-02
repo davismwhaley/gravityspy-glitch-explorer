@@ -23,9 +23,13 @@ to audit where human labels diverge from learned morphology, and why.
 
 ---
 
-### 🌟 Project Vision
-**How do we find a needle in a haystack when the haystack is vibrating?** 
-LIGO detectors are so sensitive that they can detect the collision of black holes billions of light-years away, but they also detect trucks driving by, wind, and electronic "glitches." This project applies **Computer Vision** and **Unsupervised Machine Learning** to categorize over 34,000 noise transients, creating a "topographical map" of detector interference to improve gravitational-wave search sensitivity.
+##**Core Scientific Result: Two Taxonomy Failure Modes**
+
+A global audit of 34,332 spectrograms reveals two opposite and systematic failure modes in human labeling:
+
+Failure Mode I — Over-Splitting (Cluster 33)
+
+A single coherent morphology fragmented across many labels.
 
 ---
 
