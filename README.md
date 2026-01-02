@@ -41,16 +41,30 @@ Human labels such as _Violin_Mode_, _Power_Line_, _Low_Frequency_Lines_, and _10
 
 ---
 
-## 🔍 [View the Live Interactive Dashboard](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
-*Note: This interactive UMAP lets you hover over data points to see specific spectrogram morphology associated with each cluster in real-time.* 
+**Failure Mode II — Over-Compression (Cluster 41)**
+_A graded family of morphologies collapsed into one dominant label._
+
+Within Cluster 41, a central “blip-like” impulse anchors a smooth continuum of increasing bandwidth and temporal smearing. When ordered by total spectrogram intensity, morphology changes monotonically without discrete boundaries.
+
+- Blip is the plurality, not the majority
+- Label entropy remains high (H = 2.26)
+- Ordered visual strips reveal structured variation, not noise
+
+➡️ Humans collapsed a continuum into a single catch-all label (“Blip”).
 
 ---
 
-## 💡 Key Achievements (Phase A)
-*   **Deep Feature Extraction:** Engineered a pipeline using a **Pre-trained ResNet-18 (Transfer Learning)** to convert raw spectrogram images into 512-dimensional feature vectors, capturing nuances human observers might miss.
-*   **Manifold Learning:** Utilized **UMAP (Uniform Manifold Approximation and Projection)** to compress high-dimensional noise patterns into an interpretable 2D "Glitch Map," preserving both local and global data structures.
-*   **Unsupervised Discovery:** Implemented **HDBSCAN** to automatically identify 50+ distinct glitch families. This revealed hidden substructures within known classes (like H1L1) that manual labeling often overlooks.
-*   **Front-End Engineering:** Successfully processed and visualized **34,332 records**, optimizing the dashboard with Base64 image encoding for seamless performance on GitHub Pages.
+**Why This Matters**
+
+These results show that **label errors are structured, not random**.
+Unsupervised learning exposes where human intuition breaks down — in _both_ directions.
+
+This has implications for:
+
+- Training data quality
+- Automated veto systems
+- Scientific interpretability
+- Governance of citizen-science pipelines
 
 ---
 
@@ -93,6 +107,9 @@ By cleaning this 28.5% error rate, we improve the training data for the automate
 *   [x] Auditing human label consistency: Identifying where the AI groups different labels together based on superior morphological similarity.
 
 ![UMAP Preview](figures/preview/umap_preview.png)
+
+## 🔍 [View the Live Interactive Dashboard](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
+*Note: This interactive UMAP lets you hover over data points to see specific spectrogram morphology associated with each cluster in real-time.* 
 
 ### 📂 Cluster 16 Files
 - 🖼 **Atlas:**  
