@@ -23,7 +23,7 @@ to audit where human labels diverge from learned morphology, and why.
 
 ---
 
-##**Core Scientific Result: Two Taxonomy Failure Modes**
+## **Core Scientific Result: Two Taxonomy Failure Modes**
 
 A global audit of 34,332 spectrograms reveals two opposite and systematic failure modes in human labeling:
 
