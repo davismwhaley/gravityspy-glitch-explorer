@@ -80,7 +80,8 @@ Fig. 2	Ambiguity-ranked cluster table (purity × size)
 Fig. 3 (https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png)	
 Cluster 33 contact sheet (over-splitting across labels)
 
-Fig. 4	Cluster 41 ordered strip by intensity (over-compression)
+Fig. 4	(https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png) 
+Cluster 41 ordered strip by intensity (over-compression)
 
 Fig. 5	Entropy comparison between Cluster 33 and 41
 
