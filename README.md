@@ -101,6 +101,7 @@ This case study demonstrated:
 📁 **Cluster 16 Files:**
 
 - **Cluster 16 Report**
+
   [`Cluster_16_deep_dive`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/findings/cluster_16_deep_dive/report.md)
 
 - 🖼 **Atlas:**  
