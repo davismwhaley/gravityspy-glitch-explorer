@@ -8,29 +8,18 @@ Rather than treating human labels as ground truth, this project asks:
 The result is a reproducible framework for data quality assurance, taxonomy validation, and interpretability in scientific ML pipelines.
 
 ---
-## **Featured Case Study: Cluster 16 Drift-Line Manifold**
-**New:** During the Human–AI audit phase, I discovered a continuous frequency-drifting glitch family (Cluster 16) that humans had split across eight different labels (“Whistle,” “Low_Frequency_Lines,” “Air_Compressor,” etc.).
+**Project Overview**
 
-![Cluster 16](figures/umap_cluster16_segments2.png)
+**How do we find a needle in a haystack when the haystack is vibrating?** 
+LIGO detectors are so sensitive that they can detect the collision of black holes billions of light-years away, but they also detect trucks driving by, wind, and electronic "glitches." This project applies **Computer Vision** and **Unsupervised Machine Learning** to categorize over 34,000 noise transients, creating a "topographical map" of detector interference to improve gravitational-wave search sensitivity. The Gravity Spy dataset combines citizen science and expert labeling to classify instrumental glitches in LIGO spectrograms. While highly valuable, such hybrid labeling systems are susceptible to inconsistency, drift, and structural bias.
 
-Using a manifold-based segmentation approach, I found that:
-- Cluster 16 contains 302 samples
-- **28.5% of human labels are inconsistent**
-- The morphology forms a single continuous 1-D drift, not separate classes
-- A segment-based relabeling rule improves label consistency dramatically
+This project applies:
 
-### 📂 Cluster 16 Files
-- 🖼 **Atlas:**  
-  [`atlas_3row.png`](findings/cluster_16_deep_dive/atlas_3row.png)
+- **CNN embeddings** (ResNet-18)
+- **UMAP** for manifold learning
+- **HDBSCAN** for unsupervised clustering
 
-- 📊 **Correction Table:**  
-  [`correction_table.csv`](findings/cluster_16_deep_dive/correction_table.csv)
-
-- 📝 **Case Study Summary:**  
-  [`report.md`](findings/cluster_16_deep_dive/report.md)
-
-This marks the project's first major scientific insight:
-**Unsupervised learning uncovered a previously unrecognized glitch family hidden beneath noisy and inconsistent human labels.**
+to audit where human labels diverge from learned morphology, and why.
 
 ---
 
@@ -92,6 +81,16 @@ By cleaning this 28.5% error rate, we improve the training data for the automate
 *   [x] Auditing human label consistency: Identifying where the AI groups different labels together based on superior morphological similarity.
 
 ![UMAP Preview](figures/preview/umap_preview.png)
+
+### 📂 Cluster 16 Files
+- 🖼 **Atlas:**  
+  [`atlas_3row.png`](findings/cluster_16_deep_dive/atlas_3row.png)
+
+- 📊 **Correction Table:**  
+  [`correction_table.csv`](findings/cluster_16_deep_dive/correction_table.csv)
+
+- 📝 **Case Study Summary:**  
+  [`report.md`](findings/cluster_16_deep_dive/report.md)
 
 *spectrogram morphology map showing clusters of glitches*
 
