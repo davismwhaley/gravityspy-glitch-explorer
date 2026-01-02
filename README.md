@@ -113,8 +113,9 @@ This case study demonstrated:
   [`report.md`](findings/cluster_16_deep_dive/report.md)
 
 ---
+## **Future work and what this project is _not_**
 
-## **Future Work**
+This project does not attempt to identify specific detector subsystems or claim causal mechanisms for individual glitches. Instead, it focuses on auditing the internal consistency of human-in-the-loop taxonomies using unsupervised morphology. Physical attribution via auxiliary channels is a natural follow-on, but not required to diagnose taxonomy failure modes.
 
 While the morphological audit confirms taxonomical fragmentation, the next logical step is physical grounding via auxiliary channel correlation. Due to the restricted nature of LIGO's internal sensor data, this remains a target for future collaboration with access to the full NDS2 server.
 
