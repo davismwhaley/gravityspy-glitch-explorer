@@ -12,7 +12,6 @@ After embedding 34,332 Gravity Spy spectrograms using a CNN-based feature extrac
 To prioritize clusters exhibiting disagreement between human labels and learned morphology, clusters were ranked using an ambiguity score defined as
 
 ## **Ambiguity=(1−purity)×N**
-
 where purity is the fraction of samples belonging to the most common human label within a cluster and N is the cluster size.
 
 This metric highlights large clusters with substantial label mixing.
