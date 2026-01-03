@@ -39,6 +39,8 @@ Human labels such as _Violin_Mode_, _Power_Line_, _Low_Frequency_Lines_, and _10
 
 ➡️ **Humans subdivided one physical phenomenon into many categories.**
 
+[`Cluster 33 contact sheet (over-splitting across labels`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png)	
+
 ---
 
 **Failure Mode II — Over-Compression: many morphologies → one label (Cluster 41)**
@@ -51,6 +53,8 @@ Within Cluster 41, a central “blip-like” impulse anchors a smooth continuum 
 - Ordered visual strips reveal structured variation, not noise
 
 ➡️ Humans collapsed a continuum into a single catch-all label (“Blip”).
+
+[`Cluster 41 ordered strip by intensity (over-compression)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png)
 
 ---
 
@@ -93,6 +97,8 @@ All figures are stored under /findings/ with reproducible notebooks.
 Before the global audit, **Cluster 16** provided the initial motivation for this work.
 
 Cluster 16 forms a 1-D drift manifold where glitch morphology evolves smoothly across frequency regimes, yet human labels disagree nearly **30% of the time**.
+
+[`Cluster 16`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/umap_cluster16_segments2.png)
 
 This case study demonstrated:
 
