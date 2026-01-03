@@ -23,22 +23,23 @@ Where:
 
 ## **4.2 Failure Mode I: Over-Splitting (Cluster 33)**
 
-Cluster 33 contains 2,106 samples and exhibits low label purity (~0.22). No single Gravity Spy label dominates; instead, labels such as _Violin_Mode_, _Power_Line_, _Low_Frequency_Lines_, and _1080Lines_ appear with comparable frequency.
+Cluster 33 contains **2,106 samples** and exhibits a remarkably low label purity (~0.22). No single Gravity Spy label dominates. Instead, labels such as *Violin_Mode*, *Power_Line*, *Low_Frequency_Lines*, and *1080Lines* appear with nearly equal frequency.
 
+**Evidence:**
 A controlled contact-sheet visualization (five samples per label for the six most frequent labels) is shown in [`Figure 3`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png). Despite divergent human-assigned labels, the spectrograms display nearly indistinguishable narrow-band, line-like morphologies.
 
-This cluster therefore exemplifies **over-splitting**, in which a single coherent instrumental morphology is subdivided across multiple human taxonomies without corresponding physical distinctions.
+ **Diagnostic:** **Over-splitting.** This cluster exemplifies **over-splitting**, in which a single coherent instrumental morphology is subdivided across multiple human taxonomies without corresponding physical distinctions.
 
 ---
 
 ## **4.3 Failure Mode II: Over-Compression (Cluster 41)**
 
-Cluster 41 is the largest ambiguous cluster, containing 3,915 samples. While Blip is the plurality label (~48%), substantial fractions of samples are labeled as _Koi_Fish_, _Low_Frequency_Burst_, and _Light_Modulation_.
+Cluster 41 is the largest high-ambiguity group in the dataset (**3,915 samples**). While "Blip" is the plurality label (~48%), it masks substantial fractions of *Koi_Fish*, *Low_Frequency_Burst*, and *Light_Modulation*.
 
-To determine whether this label mixing reflects random variation or structured morphology, samples within Cluster 41 were ordered by **total spectrogram intensity**, a simple proxy for signal strength and bandwidth. The resulting ordered visualization [`Figure 4`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png)  reveals a smooth, monotonic progression from thin, impulsive features to increasingly thick and temporally smeared morphologies, without discrete boundaries.
+**Evidence:**
+When ordered by **Integrated Pixel Intensity (SNR Proxy)**, Cluster 41 reveals a smooth, monotonic progression. It evolves from thin, impulsive spikes into increasingly thick, temporally smeared "bursts." There are no discrete morphological boundaries to justify the separate labels. [`Figure 4`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png)
 
-Cluster 41 therefore demonstrates over-compression, in which a graded family of related morphologies is collapsed into a single dominant human label.
-
+*Diagnostic:** **Over-compression.** A graded family of related morphologies is collapsed into a single catch-all label ("Blip"), hiding the continuous physical evolution of the signal.
 ---
 
 ## **4.4 Quantitative Contrast via Label Entropy**
