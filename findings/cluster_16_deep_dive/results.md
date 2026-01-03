@@ -5,7 +5,7 @@ This page provides a detailed analytical breakdown of the systematic divergences
 
 ## **4.1 Global Ambiguity Ranking**
 
-To prioritize clusters exhibiting the highest disagreement between human labels and learned morphology, we developed a global **Ambiguity Score**. This metric allows us to rank clusters not just by size, but by the "stress" they place on the existing taxonomy.
+To prioritize clusters exhibiting the highest disagreement between human labels and learned morphology, I developed a global **Ambiguity Score**. This metric allows us to rank clusters not just by size, but by the "stress" they place on the existing taxonomy.
 
 The score is defined as:
 
@@ -56,18 +56,19 @@ Where $p_i$ is the fraction of samples assigned to label $i$.
 | **Cluster 33** | **2.82** | Over-Splitting (Fragmentation) |
 | **Cluster 41** | **2.26** | Over-Compression (Spectrum Collapse) |
 
-The higher entropy in Cluster 33 reflects **near-uniform fragmentation**, while the lower (but still significant) entropy in Cluster 41 reflects a **dominant label masking a continuum.** [`Figure 5`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig5_label_entropy_cluster33_vs_cluster41.png).
+The higher entropy in Cluster 33 reflects **near-uniform fragmentation**, while the lower (but still significant) entropy in Cluster 41 reflects a **dominant label masking a continuum.** [`Figure 5`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig5_label_entropy_cluster33_vs_cluster41.png)
 
 ---
 
 ## **4.5 Summary of Observed Failure Modes**
 
-Together, these results identify two opposite but systematic failure modes in human-in-the-loop glitch taxonomies:
+The results of this audit demonstrate that unsupervised morphology learning can diagnose systematic weaknesses in human-curated scientific taxonomies. I have identified two primary failure modes:
 
-- Over-splitting: one morphology fragmented into many labels (Cluster 33).
-- Over-compression: multiple related morphologies collapsed into one dominant label (Cluster 41).
+1.  **Over-splitting:** Fragments a single physical phenomenon into redundant categories, potentially confusing causal attribution.
+2.  **Over-compression:** Blurs a morphological continuum into a single class, potentially hiding important spectral evolution data.
 
-Both failure modes are detectable using the same unsupervised audit pipeline and do not require physical attribution via auxiliary channels.
+**Conclusion:** 
+These failure modes are detectable using an unsupervised pipeline and provide an actionable roadmap for relabeling datasets to improve the performance of future supervised "Veto" models in gravitational-wave astronomy.
 
 ---
 
