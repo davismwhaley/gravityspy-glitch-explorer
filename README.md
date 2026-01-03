@@ -1,17 +1,15 @@
 ## 🚀 Gravity Spy Glitch Explorer  
+**Auditing Failure Modes in Human-in-the-Loop Glitch Taxonomies Using Unsupervised Learning**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Deep Learning](https://img.shields.io/badge/Framework-PyTorch-EE4C2C.svg)](https://pytorch.org/)
 [![Interactive](https://img.shields.io/badge/Dashboard-Plotly-3F4F75.svg)](https://plotly.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Auditing Failure Modes in Human-in-the-Loop Glitch Taxonomies Using Unsupervised Learning**
 This repository documents a research-grade audit of human-labeled glitch taxonomies in LIGO’s Gravity Spy dataset using CNN embeddings, manifold learning, and density-based clustering.
 
 Rather than treating human labels as ground truth, this project asks:
 **Where do human taxonomies align with learned morphology — and where do they systematically fail?**
-
-The result is a reproducible framework for data quality assurance, taxonomy validation, and interpretability in scientific ML pipelines.
 
 ---
 ## **Project Overview**
@@ -29,11 +27,11 @@ to audit where human labels diverge from learned morphology, and why.
 
 ---
 
-## **Explore the Glitch Clusters**
+## **Explore the UMAP Morphology Map of Gravity Spy Glitches**
 
-Click below to interactively inspect individual spectrograms and cluster assignments.
+Click below to interactively inspect individual spectrograms and cluster assignments in real-time.
 
-[`The Glitch Archipelago`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
+[`Global UMAP Morphology Map`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
 
 ![](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/umap_by_label2.jpg)
 
@@ -43,15 +41,13 @@ Click below to interactively inspect individual spectrograms and cluster assignm
 
 A global audit of 34,332 spectrograms reveals two opposite and systematic failure modes in human labeling:
 
-**Failure Mode I — Over-Splitting: one morphology → many labels (Cluster 33)**
+### **Failure Mode I — Over-Splitting (Cluster 33)**
+*One morphology → Many labels.*
 
-_A single coherent morphology fragmented across many labels._
+In Cluster 33, a single coherent morphology is fragmented across many categories. Labels such as *Violin_Mode*, *Power_Line*, *Low_Frequency_Lines*, and *1080Lines* are applied to nearly indistinguishable narrow-band line artifacts.
 
-Human labels such as _Violin_Mode_, _Power_Line_, _Low_Frequency_Lines_, and _1080Lines_ are applied to nearly indistinguishable narrow-band line artifacts.
-
-- High label entropy (H = 2.82)
-- Low cluster purity (~0.22)
-- Visual contact sheets show near-identical morphology across labels
+*   **Metric:** High Label Entropy ($H = 2.82$) | Low Cluster Purity (~0.22).
+*   **Insight:** Humans subdivided a single physical phenomenon into multiple arbitrary categories.
 
 ➡️ **Humans subdivided one physical phenomenon into many categories.**
 
@@ -59,16 +55,13 @@ Human labels such as _Violin_Mode_, _Power_Line_, _Low_Frequency_Lines_, and _10
 
 ---
 
-**Failure Mode II — Over-Compression: many morphologies → one label (Cluster 41)**
-_A graded family of morphologies collapsed into one dominant label._
+### **Failure Mode II — Over-Compression (Cluster 41)**
+*Many morphologies → One label.*
 
-Within Cluster 41, a central “blip-like” impulse anchors a smooth continuum of increasing bandwidth and temporal smearing. When ordered by total spectrogram intensity, morphology changes monotonically without discrete boundaries.
+Within Cluster 41, a graded family of morphologies is collapsed into one dominant label. When ordered by intensity, the morphology changes monotonically without discrete boundaries, yet humans labeled the entire continuum as a "Blip."
 
-- Blip is the plurality, not the majority
-- Label entropy remains high (H = 2.26)
-- Ordered visual strips reveal structured variation, not noise
-
-➡️ Humans collapsed a continuum into a single catch-all label (“Blip”).
+*   **Metric:** plurality label ("Blip") masks significant structured variation ($H = 2.26$).
+*   **Insight:** Humans collapsed a complex continuum into a single catch-all label.
 
 [`Cluster 41 ordered strip by intensity (over-compression)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png)
 
@@ -89,23 +82,6 @@ This has implications for:
 - Automated veto systems
 - Scientific interpretability
 - Governance of citizen-science pipelines
-
----
-
-## **Figure Index (Evidence Map)**
-**Figure**	**Description**
-
-Fig. 1	[`Global UMAP embedding of Gravity Spy spectrograms`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig1_umap_global_by_cluster.png) 
-
-Fig. 2	[`Ambiguity-ranked cluster table (purity × size)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig2_ambiguity_ranked_clusters_top15.png)
-
-Fig. 3 [`Cluster 33 contact sheet (over-splitting across labels`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png)	
-
-Fig. 4	[`Cluster 41 ordered strip by intensity (over-compression)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png) 
-
-Fig. 5	[`Entropy comparison between Cluster 33 and 41`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig5_label_entropy_cluster33_vs_cluster41.png)
-
-All figures are stored under /findings/ with reproducible notebooks.
 
 ---
 ## **Featured Case Study (Early Phase): Cluster 16 Drift-Line Manifold**
@@ -134,32 +110,44 @@ This case study demonstrated:
   [`correction_table.csv`](findings/cluster_16_deep_dive/correction_table.csv)
 
 ---
-## **Future work and what this project is _not_**
 
-This project does not attempt to identify specific detector subsystems or claim causal mechanisms for individual glitches. Instead, it focuses on auditing the internal consistency of human-in-the-loop taxonomies using unsupervised morphology. Physical attribution via auxiliary channels is a natural follow-on, but not required to diagnose taxonomy failure modes.
+## **Figure Index (Evidence Map)**
+**Figure**	**Description**
 
-Although demonstrated on Gravity Spy, this audit framework applies to any scientific dataset labeled by humans at scale (e.g., medical imaging, microscopy, remote sensing), where taxonomies evolve faster than labeling consistency.
+Fig. 1	[`Global UMAP embedding of Gravity Spy spectrograms`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/umap_by_label2.jpg)
 
-While the morphological audit confirms taxonomical fragmentation, the next logical step is physical grounding via auxiliary channel correlation. Due to the restricted nature of LIGO's internal sensor data, this remains a target for future collaboration with access to the full NDS2 server.
+Fig. 2	[`Ambiguity-ranked cluster table (purity × size)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig2_ambiguity_ranked_clusters_top15.png)
+
+Fig. 3 [`Cluster 33 contact sheet (over-splitting across labels`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/cluster33_contact_sheet_top6x5.png)	
+
+Fig. 4	[`Cluster 41 ordered strip by intensity (over-compression)`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png) 
+
+Fig. 5	[`Entropy comparison between Cluster 33 and 41`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig5_label_entropy_cluster33_vs_cluster41.png)
+
+All figures are stored under /findings/ with reproducible notebooks.
 
 ---
 
-## 🛠 Technical Stack
-*   **Deep Learning:** PyTorch (ResNet-18 feature extraction)
-*   **Dimensionality Reduction:** UMAP (Cosine metric)
-*   **Clustering:** HDBSCAN (Density-based)
-*   **Data Engineering:** Pandas, NumPy
-*   **Visualization:** Plotly (Interactive HTML), Matplotlib/Seaborn
+## **Scope & Scalability**
+
+This project does not currently claim causal mechanisms for individual glitches. It is a **Diagnostic Tool** for data quality.
+
+Scalability: Although demonstrated on LIGO data, this audit framework applies to any scientific dataset labeled by humans at scale (e.g., medical imaging, remote sensing, microscopy), where human taxonomies may struggle to capture the continuous nature of physical phenomena.
 
 ---
 
-## **Methods (Brief)**
+## 🛠 Technical Stack & Methodology
 
-- **Embedding:** ResNet-18 (transfer learning)
-- **Manifold Learning:** UMAP (cosine metric)
-- **Clustering:** HDBSCAN
-- **Diagnostics:** Cluster purity, ambiguity score, label entropy
-- **Visualization:** Matplotlib, Plotly (interactive dashboard)
+### **Research Pipeline**
+1.  **Feature Extraction:** ResNet-18 (Transfer Learning) used to generate 512-D embeddings from spectrograms.
+2.  **Manifold Learning:** UMAP (Cosine metric) to reveal low-dimensional morphological structures.
+3.  **Unsupervised Clustering:** HDBSCAN to identify density-based clusters without assuming a cluster count.
+4.  **Audit Metrics:** Developed **Cluster Purity**, **Ambiguity Scores**, and **Label Entropy** to quantify human-AI disagreement.
+
+### **The Stack**
+*   **Core:** PyTorch, Scikit-Learn, UMAP-learn, HDBSCAN
+*   **Data Engineering:** Pandas, NumPy, GWpy
+*   **Visualization:** Plotly (Interactive), Matplotlib, Seaborn
 
 ---
 
