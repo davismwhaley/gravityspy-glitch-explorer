@@ -1,4 +1,10 @@
 ## 🚀 Gravity Spy Glitch Explorer  
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Deep Learning](https://img.shields.io/badge/Framework-PyTorch-EE4C2C.svg)](https://pytorch.org/)
+[![Interactive](https://img.shields.io/badge/Dashboard-Plotly-3F4F75.svg)](https://plotly.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **Auditing Failure Modes in Human-in-the-Loop Glitch Taxonomies Using Unsupervised Learning**
 This repository documents a research-grade audit of human-labeled glitch taxonomies in LIGO’s Gravity Spy dataset using CNN embeddings, manifold learning, and density-based clustering.
 
@@ -151,13 +157,6 @@ While the morphological audit confirms taxonomical fragmentation, the next logic
 - **Clustering:** HDBSCAN
 - **Diagnostics:** Cluster purity, ambiguity score, label entropy
 - **Visualization:** Matplotlib, Plotly (interactive dashboard)
-
----
-
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Deep Learning](https://img.shields.io/badge/Framework-PyTorch-EE4C2C.svg)](https://pytorch.org/)
-[![Interactive](https://img.shields.io/badge/Dashboard-Plotly-3F4F75.svg)](https://plotly.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
