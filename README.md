@@ -30,7 +30,7 @@ to audit where human labels diverge from learned morphology, and why.
 ---
 
 ## **Explore the Glitch Clusters**
-[`The Archipelago of Glitches`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
+[`The Glitch Archipelago`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
 
 Hover over points to inspect individual spectrograms and cluster assignments.
 
