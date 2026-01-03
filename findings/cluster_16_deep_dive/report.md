@@ -1,15 +1,15 @@
-# Cluster 16 Deep Dive  
-**Morphological Evolution Along a Drift-Line Manifold**  
-*Gravity Spy Glitch Explorer – Phase A.2 Case Study*
+# 🌌 Case Study: Cluster 16 Deep-Dive
+**Morphological Evolution Along a 1-D Drift-Line Manifold**
 
-Cluster 16 exposes how unsupervised ML can outperform citizen-science labeling, revealing a 1-D astrophysical noise family that humans mislabeled nearly 30% of the time. **Cluster 16 contains a 28.5% human label error rate across 302 samples.**
+**Executive Summary:** Cluster 16 exposes the limits of discrete citizen-science labeling. By mapping this cluster’s 1-D manifold, I identified a **28.5% human label error rate** across 302 samples and developed an automated, physics-based relabeling strategy.
 
 ---
 
-## 🌌 Overview
+## 🔍 The Discovery
 
-Cluster 16 emerged as the single most scientifically interesting structure during the Human–AI Discrepancy Audit.  
-Unlike most clusters—which correspond cleanly to one Gravity Spy class—Cluster 16 forms a **continuous 1-D manifold** in UMAP space. Along this curve, the glitch morphology evolves smoothly from **high-frequency whistles**, through **narrow spectral lines**, and finally into **broadband low-frequency bursts**.
+Cluster 16 emerged as the "smoking gun" of the Human-AI Discrepancy Audit. While most glitches fall into discrete buckets, Cluster 16 forms a **continuous 1-D manifold** (a latent continuum) in UMAP space. 
+
+Along this single geometric curve, the glitch morphology evolves smoothly from **high-frequency whistles** to **broadband low-frequency bursts.** This proves that these are not separate "types" of glitches, but different manifestations of the same underlying physical process—a fact that human labelers missed 28.5% of the time.
 
 This continuum reveals that many human labels are **inconsistent** with the true underlying morphology. Cluster 16 alone contains:
 
