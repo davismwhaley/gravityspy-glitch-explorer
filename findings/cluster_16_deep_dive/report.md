@@ -46,6 +46,20 @@ The following table proves that human error is not distributed randomly—it pea
 **The "Transition Paradox":** In the center of the manifold, human labelers are essentially flipping a coin ($49\%$ error), whereas the CNN-UMAP pipeline identifies a clear, smooth progression.
 
 ---
+
+## 🏷 Principled Relabeling Strategy
+
+To correct the training data for future supervised models, I implemented a **Segment-Based Correction Rule**. This replaces inconsistent "catch-all" labels with labels derived from the manifold position:
+
+1.  **Lower Segment** $\rightarrow$ `Whistle`
+2.  **Middle Segment** $\rightarrow$ `Low_Frequency_Lines`
+3.  **Upper Segment** $\rightarrow$ Retain `Low_Frequency_Burst` / `Light_Modulation`
+
+**Result:** A 100% consistent dataset that preserves the physical evolution of the glitch family.
+
+`correction_table.csv`
+
+---
 This visualization shows the 2-D UMAP projection of Cluster 16. Even though the points lie almost perfectly along a 1-D curve, the human labels form inconsistent blocks of color:
 
 - Light blue = Whistles (lower segment)
