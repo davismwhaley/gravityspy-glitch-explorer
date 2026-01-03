@@ -45,11 +45,18 @@ When ordered by **Integrated Pixel Intensity (SNR Proxy)**, Cluster 41 reveals a
 
 ## **4.4 Quantitative Contrast via Label Entropy**
 
-To quantify label diversity within clusters, Shannon label entropy was computed for each cluster:
+To provide a mathematical foundation for these observations, **Shannon Label Entropy ($H$)** was used to quantify the "disorder" of human labels within each cluster:
 
-H = -∑ p_i log2(p_i),
+$$H = -\sum p_i \log_2(p_i)$$
 
-where _pi_ is the fraction of samples assigned to label _i_.
+Where $p_i$ is the fraction of samples assigned to label $i$.
+
+| Cluster | Entropy ($H$) | Failure Mode |
+| :--- | :--- | :--- |
+| **Cluster 33** | **2.82** | Over-Splitting (Fragmentation) |
+| **Cluster 41** | **2.26** | Over-Compression (Spectrum Collapse) |
+
+The higher entropy in Cluster 33 reflects **near-uniform fragmentation**, while the lower (but still significant) entropy in Cluster 41 reflects a **dominant label masking a continuum.**
 
 Cluster 33 exhibits higher entropy (H=2.82) than Cluster 41 (H=2.26) as shown in [`Figure 5`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig5_label_entropy_cluster33_vs_cluster41.png). This difference reflects distinct structural causes: near-uniform fragmentation across labels in Cluster 33 versus dominance of a single label over a graded continuum in Cluster 41.
 
