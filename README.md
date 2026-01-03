@@ -108,17 +108,14 @@ This case study demonstrated:
 
 📁 **Cluster 16 Files:**
 
-- **Cluster 16 Report**
-  [`Cluster_16_deep_dive`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/findings/cluster_16_deep_dive/report.md)
+- 📝 **Cluster 16 report:**  
+  [`report.md`](findings/cluster_16_deep_dive/report.md)
 
 - 🖼 **Atlas:**  
   [`atlas_3row.png`](findings/cluster_16_deep_dive/atlas_3row.png)
 
 - 📊 **Correction Table:**  
   [`correction_table.csv`](findings/cluster_16_deep_dive/correction_table.csv)
-
-- 📝 **Case Study Summary:**  
-  [`report.md`](findings/cluster_16_deep_dive/report.md)
 
 ---
 ## **Future work and what this project is and is _not_**
