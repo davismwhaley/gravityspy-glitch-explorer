@@ -1,20 +1,22 @@
-## **Results**
-Although demonstrated on Gravity Spy, this audit framework applies to any scientific dataset labeled by humans at scale (e.g., medical imaging, microscopy, remote sensing), where taxonomies evolve faster than labeling consistency.
+# 📊 Research Results: A Morphological Audit of the Gravity Spy Taxonomy
+This page provides a detailed analytical breakdown of the systematic divergences between human-assigned labels and learned spectrogram morphology. 
 
 ---
 
 ## **4.1 Global Ambiguity Ranking**
 
-We present a global audit of human-assigned Gravity Spy labels using unsupervised morphology learning, with the aim of identifying systematic divergences between human taxonomy and learned spectrogram structure.
+To prioritize clusters exhibiting the highest disagreement between human labels and learned morphology, we developed a global **Ambiguity Score**. This metric allows us to rank clusters not just by size, but by the "stress" they place on the existing taxonomy.
 
-After embedding 34,332 Gravity Spy spectrograms using a CNN-based feature extractor and projecting them with UMAP, HDBSCAN clustering was applied to identify coherent morphological groups.
+The score is defined as:
 
-To prioritize clusters exhibiting disagreement between human labels and learned morphology, clusters were ranked using an ambiguity score defined as
+$$\text{Ambiguity} = (1 - \text{Purity}) \times N$$
 
-## **Ambiguity=(1−purity)×N**
-where purity is the fraction of samples belonging to the most common human label within a cluster and N is the cluster size.
+Where:
+- **Purity**: The fraction of samples belonging to the most common human label within a cluster.
+- **N**: The total number of samples in the cluster.
 
-This metric highlights large clusters with substantial label mixing.
+> **Key Finding:** This metric successfully identified Cluster 33 and Cluster 41 as the primary "stress points" in the LIGO glitch taxonomy, representing two fundamentally different failure modes.
+
 [`Figure 2`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig2_ambiguity_ranked_clusters_top15.png) shows the top-ranked ambiguous clusters. Two clusters—Cluster 33 and Cluster 41—exhibit particularly strong and interpretable disagreement patterns and are examined in detail below.
 
 ---
