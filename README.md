@@ -134,7 +134,7 @@ This case study demonstrated:
   [`correction_table.csv`](findings/cluster_16_deep_dive/correction_table.csv)
 
 ---
-## **Future work and what this project is and is _not_**
+## **Future work and what this project is _not_**
 
 This project does not attempt to identify specific detector subsystems or claim causal mechanisms for individual glitches. Instead, it focuses on auditing the internal consistency of human-in-the-loop taxonomies using unsupervised morphology. Physical attribution via auxiliary channels is a natural follow-on, but not required to diagnose taxonomy failure modes.
 
