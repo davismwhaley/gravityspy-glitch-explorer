@@ -23,6 +23,13 @@ to audit where human labels diverge from learned morphology, and why.
 
 ---
 
+## **Explore the glitch clusters**
+(https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
+
+Hover over points to inspect individual spectrograms and cluster assignments.
+
+---
+
 ## **Core Scientific Result: Two Taxonomy Failure Modes**
 
 A global audit of 34,332 spectrograms reveals two opposite and systematic failure modes in human labeling:
@@ -144,13 +151,6 @@ While the morphological audit confirms taxonomical fragmentation, the next logic
 - **Clustering:** HDBSCAN
 - **Diagnostics:** Cluster purity, ambiguity score, label entropy
 - **Visualization:** Matplotlib, Plotly (interactive dashboard)
-
----
-
-## **Interactive Explorer**
-(https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
-
-Hover over points to inspect individual spectrograms and cluster assignments.
 
 ---
 
