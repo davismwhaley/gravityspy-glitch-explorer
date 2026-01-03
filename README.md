@@ -98,7 +98,7 @@ Before the global audit, **Cluster 16** provided the initial motivation for this
 
 Cluster 16 forms a 1-D drift manifold where glitch morphology evolves smoothly across frequency regimes, yet human labels disagree nearly **30% of the time**.
 
-(umap_cluster16_segments2.png)
+![Cluster 16](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/umap_cluster16_segments2.png)
 
 This case study demonstrated:
 
