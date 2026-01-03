@@ -39,7 +39,7 @@ Cluster 41 is the largest high-ambiguity group in the dataset (**3,915 samples**
 **Evidence:**
 When ordered by **Integrated Pixel Intensity (SNR Proxy)**, Cluster 41 reveals a smooth, monotonic progression. It evolves from thin, impulsive spikes into increasingly thick, temporally smeared "bursts." There are no discrete morphological boundaries to justify the separate labels. [`Figure 4`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/cluster41_ordered_by_intensity_strip.png)
 
-*Diagnostic:** **Over-compression.** A graded family of related morphologies is collapsed into a single catch-all label ("Blip"), hiding the continuous physical evolution of the signal.
+**Diagnostic:** **Over-compression.** A graded family of related morphologies is collapsed into a single catch-all label ("Blip"), hiding the continuous physical evolution of the signal.
 
 ---
 
