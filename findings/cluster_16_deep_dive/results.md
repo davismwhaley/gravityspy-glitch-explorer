@@ -67,6 +67,8 @@ The results of this audit demonstrate that unsupervised morphology learning can 
 1.  **Over-splitting:** Fragments a single physical phenomenon into redundant categories, potentially confusing causal attribution.
 2.  **Over-compression:** Blurs a morphological continuum into a single class, potentially hiding important spectral evolution data.
 
+---
+
 **Conclusion:** 
 These failure modes are detectable using an unsupervised pipeline and provide an actionable roadmap for relabeling datasets to improve the performance of future supervised "Veto" models in gravitational-wave astronomy.
 
