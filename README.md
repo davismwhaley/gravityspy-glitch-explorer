@@ -35,7 +35,7 @@ Hover over points to inspect individual spectrograms and cluster assignments.
 
 [`The Glitch Archipelago`](https://davismwhaley.github.io/gravityspy-glitch-explorer/figures/umap_interactive_sample.html)
 
-(https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/umap_by_label2.jpg)
+![](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/umap_by_label2.jpg)
 
 ---
 
