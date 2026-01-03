@@ -11,21 +11,41 @@ Cluster 16 emerged as the "smoking gun" of the Human-AI Discrepancy Audit. While
 
 Along this single geometric curve, the glitch morphology evolves smoothly from **high-frequency whistles** to **broadband low-frequency bursts.** This proves that these are not separate "types" of glitches, but different manifestations of the same underlying physical process—a fact that human labelers missed 28.5% of the time.
 
-This continuum reveals that many human labels are **inconsistent** with the true underlying morphology. Cluster 16 alone contains:
-
-- **302 total samples**
-- **86 inconsistent human labels**
-- **28.5% overall inconsistency rate**
-
-This makes Cluster 16 a perfect case study for demonstrating:
-- Unsupervised morphology discovery  
-- Human–machine label disagreement  
-- Data quality auditing  
-- A principled strategy for relabeling citizen-science datasets  
-
----
 ![Cluster 16](umap_cluster16_segments2.png)
 
+---
+
+## 🧬 The 3-Segment Morphological Drift
+
+By segmenting the UMAP manifold, we can track exactly where human intuition fails.
+
+### **1. Lower Segment: High-Frequency "Whistles"**
+*   **Morphology:** Sharp, vertical "V" or "W" signatures.
+*   **Human Status:** Generally accurate, but contaminated by "Power_Line" and "Air_Compressor" mislabels.
+
+### **2. Middle Segment: Narrow Spectral Lines**
+*   **Morphology:** Transition state; thin horizontal stability.
+*   **Human Status:** **Maximum Ambiguity.** This is where labeling consistency collapses as users struggle to distinguish between "Line" and "Whistle."
+
+### **3. Upper Segment: Broadband Bursts**
+*   **Morphology:** Morphological expansion into wide energy bands.
+*   **Human Status:** High accuracy; the signal becomes unambiguous even for non-experts.
+
+---
+
+## 📊 Quantifying the "Human Intuition Gap"
+
+The following table proves that human error is not distributed randomly—it peaks at the **morphological transition points.**
+
+| Manifold Segment | Total Samples | Consistent Labels | Inconsistent Labels | **Error Rate** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Lower** (Whistle end) | 100 | 71 | 29 | **29.0%** |
+| **Middle** (Transition) | 100 | 51 | 49 | **49.0%** |
+| **Upper** (Burst end) | 102 | 94 | 8 | **7.8%** |
+
+**The "Transition Paradox":** In the center of the manifold, human labelers are essentially flipping a coin ($49\%$ error), whereas the CNN-UMAP pipeline identifies a clear, smooth progression.
+
+---
 This visualization shows the 2-D UMAP projection of Cluster 16. Even though the points lie almost perfectly along a 1-D curve, the human labels form inconsistent blocks of color:
 
 - Light blue = Whistles (lower segment)
