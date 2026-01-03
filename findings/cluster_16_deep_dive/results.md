@@ -56,9 +56,7 @@ Where $p_i$ is the fraction of samples assigned to label $i$.
 | **Cluster 33** | **2.82** | Over-Splitting (Fragmentation) |
 | **Cluster 41** | **2.26** | Over-Compression (Spectrum Collapse) |
 
-The higher entropy in Cluster 33 reflects **near-uniform fragmentation**, while the lower (but still significant) entropy in Cluster 41 reflects a **dominant label masking a continuum.**
-
-Cluster 33 exhibits higher entropy (H=2.82) than Cluster 41 (H=2.26) as shown in [`Figure 5`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig5_label_entropy_cluster33_vs_cluster41.png). This difference reflects distinct structural causes: near-uniform fragmentation across labels in Cluster 33 versus dominance of a single label over a graded continuum in Cluster 41.
+The higher entropy in Cluster 33 reflects **near-uniform fragmentation**, while the lower (but still significant) entropy in Cluster 41 reflects a **dominant label masking a continuum.** [`Figure 5`](https://github.com/davismwhaley/gravityspy-glitch-explorer/blob/main/figures/fig5_label_entropy_cluster33_vs_cluster41.png).
 
 ---
 
