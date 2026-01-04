@@ -73,7 +73,7 @@ _The results are fully explained in_ [`results.md`](https://github.com/davismwha
 
 **Why This Matters**
 
-These results show that **label errors are structured, not random**. Unsupervised learning exposes where human intuition breaks down — in _both_ directions. The broader takeaway is that unsupervised learning can serve as a data governance and quality-assurance tool — helping improve training data before building supervised systems — and the framework generalizes to any large human-labeled scientific dataset.”
+These results show that **label errors are structured, not random**. Unsupervised learning exposes where human intuition breaks down — in _both_ directions. The broader takeaway is that unsupervised learning can serve as a data governance and quality-assurance tool — helping improve training data before building supervised systems — and the framework generalizes to any large human-labeled scientific dataset.
 
 This has implications for:
 
