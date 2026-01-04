@@ -73,8 +73,7 @@ _The results are fully explained in_ [`results.md`](https://github.com/davismwha
 
 **Why This Matters**
 
-These results show that **label errors are structured, not random**.
-Unsupervised learning exposes where human intuition breaks down — in _both_ directions.
+These results show that **label errors are structured, not random**. Unsupervised learning exposes where human intuition breaks down — in _both_ directions. The broader takeaway is that unsupervised learning can serve as a data governance and quality-assurance tool — helping improve training data before building supervised systems — and the framework generalizes to any large human-labeled scientific dataset.”
 
 This has implications for:
 
@@ -130,9 +129,9 @@ All figures are stored under /findings/ with reproducible notebooks.
 
 ## **Scope & Scalability**
 
-This project does not currently claim causal mechanisms for individual glitches. It is a **Diagnostic Tool** for data quality.
+This project does not currently claim causal mechanisms for individual glitches. It is a **Diagnostic Tool** for data quality. 
 
-Scalability: Although demonstrated on LIGO data, this audit framework applies to any scientific dataset labeled by humans at scale (e.g., medical imaging, remote sensing, microscopy), where human taxonomies may struggle to capture the continuous nature of physical phenomena.
+Scalability: Although demonstrated on LIGO data, this audit framework applies to any scientific dataset labeled by humans at scale (e.g., medical imaging, remote sensing, microscopy), where human taxonomies may struggle to capture the continuous nature of physical phenomena. 
 
 ---
 
