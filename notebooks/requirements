@@ -1,0 +1,26 @@
+# Gravity Spy Glitch Explorer
+# Install with: pip install -r requirements.txt
+
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Deep learning (for feature extraction)
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Dimensionality reduction & clustering
+umap-learn>=0.5.0
+hdbscan>=0.8.27
+
+# Visualization
+matplotlib>=3.4.0
+plotly>=5.0.0
+Pillow>=8.0.0
+
+# Progress bars
+tqdm>=4.60.0
+
+# Optional: for Jupyter notebooks
+# jupyter>=1.0.0
+# ipywidgets>=7.6.0
